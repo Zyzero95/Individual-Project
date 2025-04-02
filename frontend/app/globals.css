@@ -1,12 +1,17 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+    --header-background: #353723;
+    --footer-background: #353723;
+    --main-background: #617352;
+    --card-background: #A0A56E;
+    --searchbar-background: #FFECBD; /*Undecided background color*/
+    --text-color-black: #0a0a0a;
+    --text-color-white: #ededed;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff;
+    --foreground: #171717;
   }
 }
 
