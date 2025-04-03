@@ -1,0 +1,75 @@
+.anicardWrapper {
+    width: 30vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--card-background);
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+    .anicardFigure {
+        width: 100%;
+        height: 50%;
+        position: relative;
+
+        img {
+            object-fit: cover;
+        }
+    }
+
+    .anicardName {
+        color: var(--text-color-white);
+    }
+
+    .anicardEnvSection {
+        width: clamp(20vw, 10vw, 30vw);
+        display: flex;
+        justify-content: space-evenly;
+
+        .anicardEnv {
+            
+        }
+
+        .anicardEnvRainforest,
+        .anicardEnvSavanna,
+        .anicardEnvSwamps,
+        .anicardEnvMarshes,
+        .anicardEnvRivers,
+        .anicardEnvGrasslands,
+        .anicardEnvWetlands,
+        .anicardEnvPlains,
+        .anicardEnvLakes,
+        .anicardEnvMountain,
+        .anicardEnvArctic,
+        .anicardEnvTundra,
+        .anicardEnvOcean,
+        .anicardEnvAtlantic,
+        .anicardEnvForest,
+        .anicardEnvCoastal,
+        .anicardEnvBeaches,
+        .anicardEnvPacific,
+        .anicardEnvCaves,
+        .anicardEnvSteppes,
+        .anicardEnvLagoons,
+        .anicardEnvOceanic,
+        .anicardEnvIndian,
+        .anicardEnvCoralReef,
+        .anicardEnvRockyReefs,
+        .anicardEnvDeepOcean {
+            border: 1px solid transparent;
+            padding: 0.25rem;
+            border-radius: 20px;
+            color: var(--text-color-white);
+            font-weight: 600;
+        }
+        
+    }
+
+    .anicardButton {
+        width: 100%;
+        height: 2rem;
+    }
+}

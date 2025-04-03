@@ -21,7 +21,7 @@ namespace AnimalApi.Data
                         Image = "https://images.unsplash.com/photo-1615824996195-f780bba7cfab?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Tiger",
                         Species = "Mammal",
-                        Environment = ["Rain forest", "Savanna"],
+                        Environment = ["Rainforest", "Savanna"],
                         FoodPreference = "Carnivore",
                         Description = "The tiger (Panthera tigris) is a large cat and a member of the genus Panthera native to Asia. It has a powerful, muscular body with a large head and paws, a long tail and orange fur with black, mostly vertical stripes. It is traditionally classified into nine recent subspecies, though some recognise only two subspecies, mainland Asian tigers and the island tigers of the Sunda Islands."
                     },
@@ -30,7 +30,7 @@ namespace AnimalApi.Data
                         Image = @"https://images.unsplash.com/photo-1566544496485-02b11e54229b?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Jaguar",
                         Species = "Mammal",
-                        Environment = ["Rain forest", "Swamps"],
+                        Environment = ["Rainforest", "Swamps"],
                         FoodPreference = "Carnivore",
                         Description = "The jaguar (Panthera onca) is a large cat species and the only living member of the genus Panthera that is native to the Americas. With a body length of up to 1.85 m (6 ft 1 in) and a weight of up to 158 kg (348 lb), it is the biggest cat species in the Americas and the third largest in the world. Its distinctively marked coat features pale yellow to tan colored fur covered by spots that transition to rosettes on the sides, although a melanistic black coat appears in some individuals. The jaguar's powerful bite allows it to pierce the carapaces of turtles and tortoises, and to employ an unusual killing method: it bites directly through the skull of mammalian prey between the ears to deliver a fatal blow to the brain."
                     },
@@ -39,7 +39,7 @@ namespace AnimalApi.Data
                         Image = @"https://images.unsplash.com/photo-1604165645922-eb8fdc7d84ee?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Sloth",
                         Species = "Mammal",
-                        Environment = ["Rain forest"],
+                        Environment = ["Rainforest"],
                         FoodPreference = "Herbivore",
                         Description = "Sloths are a Neotropical group of xenarthran mammals constituting the suborder Folivora, including the extant arboreal tree sloths and extinct terrestrial ground sloths. Noted for their slowness of movement, tree sloths spend most of their lives hanging upside down in the trees of the tropical rainforests of South America and Central America. Sloths are considered to be most closely related to anteaters, together making up the xenarthran order Pilosa."
                     },
@@ -48,7 +48,7 @@ namespace AnimalApi.Data
                         Image = @"https://images.unsplash.com/photo-1581281863883-2469417a1668?q=80&w=1951&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Gorilla",
                         Species = "Mammal",
-                        Environment = ["Rain forest"],
+                        Environment = ["Rainforest"],
                         FoodPreference = "Herbivore",
                         Description = "Gorillas are herbivorous, predominantly ground-dwelling great apes that inhabit the tropical forests of equatorial Africa. The genus Gorilla is divided into two species: the eastern gorilla and the western gorilla, and either four or five subspecies. The DNA of gorillas is highly similar to that of humans, from 95 to 99% depending on what is included, and they are the next closest living relatives to humans after chimpanzees."
                     },
@@ -57,7 +57,7 @@ namespace AnimalApi.Data
                         Image = @"https://images.unsplash.com/photo-1616902509409-a624c4f31a56?q=80&w=2083&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Macaw",
                         Species = "Bird",
-                        Environment = ["Rain forest"],
+                        Environment = ["Rainforest"],
                         FoodPreference = "Herbivore",
                         Description = "Macaws are a group of New World parrots that are long-tailed and often colorful, in the tribe Arini.[1] They are popular in aviculture or as companion parrots, although there are conservation concerns about several species in the wild."
                     },
@@ -66,7 +66,7 @@ namespace AnimalApi.Data
                         Image = @"https://images.unsplash.com/photo-1619038779484-a27362fb82cd?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Toucan",
                         Species = "Bird",
-                        Environment = ["Rain forest"],
+                        Environment = ["Rainforest"],
                         FoodPreference = "Omnivore",
                         Description = "Toucans (/ˈtuːkæn/, UK: /-kən/) are Neotropical birds in the family Ramphastidae. They are most closely related to the Toucan barbets. They are brightly marked and have large, often colorful bills. The family includes five genera and over 40 different species."
                     },
@@ -75,7 +75,7 @@ namespace AnimalApi.Data
                         Image = @"https://images.unsplash.com/photo-1714622343884-7494d44b30fa?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Capybara",
                         Species = "Mammal",
-                        Environment = ["Rain forest", "Marshes", "Swamps"],
+                        Environment = ["Rainforest", "Marshes", "Swamps"],
                         FoodPreference = "Herbivore",
                         Description = "The capybara[a] or greater capybara (Hydrochoerus hydrochaeris) is the largest living rodent,[2] native to South America. It is a member of the genus Hydrochoerus. The only other extant member is the lesser capybara (Hydrochoerus isthmius). Its close relatives include guinea pigs and rock cavies, and it is more distantly related to the agouti, the chinchilla, and the nutria. The capybara inhabits savannas and dense forests, and lives near bodies of water. It is a highly social species and can be found in groups as large as 100 individuals, but usually live in groups of 10–20 individuals. The capybara is hunted for its meat and hide and also for grease from its thick fatty skin.[3]"
                     },
@@ -84,7 +84,7 @@ namespace AnimalApi.Data
                         Image = @"https://images.unsplash.com/photo-1726754412634-fa5d1eb89636?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Howler Monkey",
                         Species = "Mammal",
-                        Environment = ["Rain forest"],
+                        Environment = ["Rainforest"],
                         FoodPreference = "Herbivore",
                         Description = "Howler monkeys (genus Alouatta, monotypic in subfamily Alouattinae) are the most widespread primate genus in the Neotropics and are among the largest of the platyrrhines along with the muriquis (Brachyteles), the spider monkeys (Ateles) and woolly monkeys (Lagotrix). The monkeys are native to South and Central American forests. They are famous for their loud howls, which can be heard up to three miles away through dense rain forest. Fifteen species are recognized. Previously classified in the family Cebidae, they are now placed in the family Atelidae. They are primarily folivores but also significant frugivores, acting as seed dispersal agents through their digestive system and their locomotion. Threats include human predation, habitat destruction, illegal wildlife trade, and capture for pets or zoo animals."
                     },
@@ -93,7 +93,7 @@ namespace AnimalApi.Data
                         Image = @"https://images.unsplash.com/photo-1575590364024-614acdbcbcfc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Spider monkey",
                         Species = "Mammal",
-                        Environment = ["Rain forest"],
+                        Environment = ["Rainforest"],
                         FoodPreference = "Herbivore",
                         Description = "Spider monkeys are New World monkeys belonging to the genus Ateles, part of the subfamily Atelinae, family Atelidae. Like other atelines, they are found in tropical forests of Central and South America, from southern Mexico to Brazil. The genus consists of seven species, all of which are under threat; the brown spider monkey is critically endangered. They are also notable for their ability to be easily bred in captivity."
                     },
@@ -102,7 +102,7 @@ namespace AnimalApi.Data
                         Image = @"https://images.unsplash.com/photo-1710814449080-41c9e533e22d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Emerald tree boa",
                         Species = "Reptile",
-                        Environment = ["Rain forest"],
+                        Environment = ["Rainforest"],
                         FoodPreference = "Carnivore",
                         Description = "The emerald tree boa (Corallus caninus) is a boa species found in the rainforests of South America. Since 2009 the species Corallus batesii has been distinguished from the emerald tree boa. Like all other boas, it is nonvenomous. Trade of the species is controlled internationally under CITES Appendix II."
                     },
@@ -300,7 +300,7 @@ namespace AnimalApi.Data
                         Image = @"https://images.unsplash.com/photo-1698472505070-6d3b90afb530?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Sperm Whale",
                         Species = "Piscivore",
-                        Environment = ["Ocean", "Deep Ocean", "Arctic"],
+                        Environment = ["Ocean", "DeepOcean", "Arctic"],
                         FoodPreference = "Herbivore",
                         Description = "The sperm whale or cachalot (Physeter macrocephalus) is the largest of the toothed whales and the largest toothed predator. It is the only living member of the genus Physeter and one of three extant species in the sperm whale family, along with the pygmy sperm whale and dwarf sperm whale of the genus Kogia."
                     },
@@ -336,7 +336,7 @@ namespace AnimalApi.Data
                         Image = @"https://images.unsplash.com/photo-1584267814800-c9de7a2cfeac?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Anglerfish",
                         Species = "Piscivore",
-                        Environment = ["Ocean", "Deep Ocean", "Atlantic", "Arctic"],
+                        Environment = ["Ocean", "DeepOcean", "Atlantic", "Arctic"],
                         FoodPreference = "Herbivore",
                         Description = "The anglerfish are ray-finned fish in the order Lophiiformes. Both the order's common and scientific name comes from the characteristic mode of predation, in which a modified dorsal fin ray acts as a lure for prey (akin to a human angler, and likened to a crest or lophos). The modified fin ray, with the very tip being the esca and the length of the structure the illicium, is adapted to attract specific prey items across the families of anglerfish by using different luring methods."
                     },
@@ -471,7 +471,7 @@ namespace AnimalApi.Data
                         Image = @"https://images.unsplash.com/photo-1567784055803-b9d0a50d88e3?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Manta Ray",
                         Species = "Mammal",
-                        Environment = ["Coral Reef", "Ocean", "Coastal"],
+                        Environment = ["CoralReef", "Ocean", "Coastal"],
                         FoodPreference = "Piscivore",
                         Description = "Manta rays are large rays belonging to the genus Mobula (formerly its own genus Manta). The larger species, M. birostris, reaches 7 m (23 ft) in width, while the smaller, M. alfredi, reaches 5.5 m (18 ft). Both have triangular pectoral fins, horn-shaped cephalic fins and large, forward-facing mouths. They are classified among the Myliobatiformes (stingrays and relatives) and are placed in the family Myliobatidae (eagle rays). They have the largest brain-to-body ratio of all fish, and can pass the mirror test."
                     },
@@ -480,7 +480,7 @@ namespace AnimalApi.Data
                         Image = @"https://images.unsplash.com/photo-1544552866-d3ed42536cfd?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Clownfish",
                         Species = "Fish",
-                        Environment = ["Coral Reef", "Ocean", "Lagoons"],
+                        Environment = ["CoralReef", "Ocean", "Lagoons"],
                         FoodPreference = "Omnivore",
                         Description = "Clownfish or anemonefish are saltwater fish from the subfamily Amphiprioninae in the family Pomacentridae. Thirty species of clownfish are recognized: one in the genus Premnas, while the remaining are in the genus Amphiprion. In the wild, they all form symbiotic mutualisms with sea anemones. Depending on the species, anemonefish are overall yellow, orange, or a reddish or blackish color, and many show white bars or patches. The largest can reach a length of 17 cm (6+1⁄2 in), while the smallest barely achieve 7–8 cm (2+3⁄4–3+1⁄4 in)."
                     },
@@ -489,7 +489,7 @@ namespace AnimalApi.Data
                         Image = @"https://images.unsplash.com/photo-1702872769303-54d80e668424?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Butterflyfish",
                         Species = "Fish",
-                        Environment = ["Coral Reef", "Ocean", "Oceanic"],
+                        Environment = ["CoralReef", "Ocean", "Oceanic"],
                         FoodPreference = "Piscivore",
                         Description = "The butterflyfish are a group of conspicuous tropical marine fish of the family Chaetodontidae; the bannerfish and coralfish are also included in this group. The approximately 129 species in 12 genera are found mostly on the reefs of the Atlantic, Indian, and Pacific Oceans. A number of species pairs occur in the Indian and Pacific Oceans, members of the huge genus Chaetodon."
                     },
@@ -498,7 +498,7 @@ namespace AnimalApi.Data
                         Image = @"https://images.unsplash.com/photo-1650978688025-c48862fde84a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Giant Clam",
                         Species = "Mollusc",
-                        Environment = ["Coral Reef", "Ocean"],
+                        Environment = ["CoralReef", "Ocean"],
                         FoodPreference = "Filter Feeder",
                         Description = "Tridacna gigas, the giant clam, is the best-known species of the giant clam genus Tridacna. Giant clams are the largest living bivalve molluscs. Several other species of giant clam in the genus Tridacna are often misidentified as Tridacna gigas."
                     },
@@ -507,7 +507,7 @@ namespace AnimalApi.Data
                         Image = @"https://images.unsplash.com/photo-1703248187588-393e532ed0e4?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Lionfish",
                         Species = "Fish",
-                        Environment = ["Coral Reef", "Ocean"],
+                        Environment = ["CoralReef", "Ocean"],
                         FoodPreference = "Piscivore",
                         Description = "Pterois is a genus of venomous marine fish, commonly known as the lionfish, native to the Indo-Pacific. It is characterized by conspicuous warning coloration with red or black bands and ostentatious dorsal fins tipped with venomous spines. Pterois radiata, Pterois volitans, and Pterois miles are the most commonly studied species in the genus. Pterois species are popular aquarium fish. P. volitans and P. miles are recent and significant invasive species in the west Atlantic, Caribbean Sea, and Mediterranean Sea."
                     },
@@ -516,7 +516,7 @@ namespace AnimalApi.Data
                         Image = @"https://images.unsplash.com/photo-1722583881397-b74fdc551cf7?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Moon Jellyfish",
                         Species = "Scyphozoa",
-                        Environment = ["Coral Reef", "Ocean", "Beaches"],
+                        Environment = ["CoralReef", "Ocean", "Beaches"],
                         FoodPreference = "Omnivore",
                         Description = "Aurelia aurita (also called the common jellyfish, moon jellyfish, moon jelly or saucer jelly) is a species of the family Ulmaridae. All species in the genus are very similar, and it is difficult to identify Aurelia medusae without genetic sampling, most of what follows applies equally to all species of the genus."
                     },
@@ -525,7 +525,7 @@ namespace AnimalApi.Data
                         Image = @"https://images.unsplash.com/photo-1602401800685-c6b5bb197e9f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Potato Grouper",
                         Species = "Fish",
-                        Environment = ["Coral Reef", "Ocean", "Indian", "Pacific"],
+                        Environment = ["CoralReef", "Ocean", "Indian", "Pacific"],
                         FoodPreference = "Piscivore",
                         Description = "The potato grouper (Epinephelus tukula), also called the potato cod or potato bass, is a species of marine ray-finned fish, a grouper from the subfamily Epinephelinae which is part of the family Serranidae, which also includes the anthias and sea basses. It has a wide Indo-Pacific distribution."
                     },
@@ -534,7 +534,7 @@ namespace AnimalApi.Data
                         Image = @"https://images.unsplash.com/photo-1611362487572-2e5ac40c469d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Leafy Sea Dragon",
                         Species = "Fish",
-                        Environment = ["Coral Reef", "Ocean", "Rocky Reefs"],
+                        Environment = ["CoralReef", "Ocean", "RockyReefs"],
                         FoodPreference = "Herbivore",
                         Description = "It is found along the southern and western coasts of Australia. The name is derived from their appearance, with long leaf-like protrusions coming from all over the body. These protrusions are not used for propulsion; they serve only as camouflage. The leafy seadragon propels itself utilising a pair of pectoral fins on the sides of its neck and a dorsal fin on its back closer to the tail end. These small fins are almost completely transparent and difficult to see as they undulate minutely to move the creature sedately through the water, completing the illusion of floating seaweed."
                     },
@@ -543,7 +543,7 @@ namespace AnimalApi.Data
                         Image = @"https://images.unsplash.com/photo-1548375044-6797a0c71799?q=80&w=2157&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Humphead Wrasse",
                         Species = "Fish",
-                        Environment = ["Coral Reef", "Ocean", "Indian", "Pacific"],
+                        Environment = ["CoralReef", "Ocean", "Indian", "Pacific"],
                         FoodPreference = "Piscivore",
                         Description = "The humphead wrasse (Cheilinus undulatus) is a large species of wrasse mainly found on coral reefs in the Indo-Pacific region. It is also known as the Māori wrasse, Napoleon wrasse, Napoleon fish, so mei 蘇眉 (Cantonese), mameng (Filipino), and merer in the Pohnpeian language of the Caroline Islands."
                     },
@@ -552,7 +552,7 @@ namespace AnimalApi.Data
                         Image = @"https://images.unsplash.com/photo-1516683169270-7514e272a5fc?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Moray Eel",
                         Species = "Fish",
-                        Environment = ["Coral Reef", "Ocean"],
+                        Environment = ["CoralReef", "Ocean"],
                         FoodPreference = "Carnivore",
                         Description = "Moray eels, or Muraenidae, are a family of eels whose members are found worldwide. There are approximately 200 species in 15 genera which are almost exclusively marine, but several species are regularly seen in brackish water, and a few are found in fresh water."
                     });
