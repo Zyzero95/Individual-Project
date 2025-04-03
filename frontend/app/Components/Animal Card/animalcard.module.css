@@ -1,3 +1,4 @@
+/* CSS Styling for Animal Card Component */
 .anicardWrapper {
     width: 30vw;
     height: 35vh;
@@ -182,6 +183,7 @@
         background-color: var(--card-button);
     }
 }
+/* Media Queries for better responsiveness */
 @media only screen and (max-width: 1459px) {
     .anicardWrapper {
         width: 40vw;

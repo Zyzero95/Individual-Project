@@ -9,13 +9,15 @@ export interface AnimalData {
 }
 
 export default function AnimalCard({ data }: AnimalData) {
+// Navigation hook to ID page.
     const router = useRouter();
+// Renders fetched data via HTML elements.
   return (
     <section className={styles.anicardWrapper}>
       <figure className={styles.anicardFigure}>
         <Image 
             src={data.image}
-            alt={`Image depicting ${data.name} uploaded from Unsplash.`}
+            alt={`Image depicting ${data.name}. Uploaded from Unsplash.`}
             fill={true}
             sizes="1000px"
             priority={true}

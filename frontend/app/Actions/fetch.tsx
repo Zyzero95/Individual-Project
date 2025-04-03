@@ -2,6 +2,7 @@ import { AnimalInterface } from "../Interfaces/animalinterface";
 
 const url = "http://localhost:5088/animals"
 
+// Uses default url for fetching all data from API.
 export default async function fetchAllAnimals(): Promise<AnimalInterface[] | null> {
   try {
     const response = await fetch(url);
@@ -20,6 +21,7 @@ export default async function fetchAllAnimals(): Promise<AnimalInterface[] | nul
   return null;
 }
 
+// Uses data Id to fetch the corresponding data.
 export async function fetchAnimal(id: number): Promise<AnimalInterface | null> {
     try {
         const response = await fetch(`${url}/${id}`);
