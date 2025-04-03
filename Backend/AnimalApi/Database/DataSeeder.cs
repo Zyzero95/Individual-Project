@@ -318,7 +318,7 @@ namespace AnimalApi.Data
                         Image = @"https://images.unsplash.com/photo-1701299762068-fa90e1234d45?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Blue Tang",
                         Species = "Fish",
-                        Environment = ["Ocean", "Coral Reef"],
+                        Environment = ["Ocean", "CoralReef"],
                         FoodPreference = "Omnivore",
                         Description = "Paracanthurus hepatus is a species of Indo-Pacific surgeonfish. A popular fish in marine aquaria, it is the only member of the genus Paracanthurus. A number of common names are attributed to the species, including regal tang, palette surgeonfish, blue tang (leading to confusion with the Atlantic species Acanthurus coeruleus), royal blue tang, hippo tang, blue hippo tang, flagtail surgeonfish, Pacific regal blue tang, and blue surgeonfish, hepatus tang, Indo-Pacific blue tang, regal blue surgeonfish, wedge-tailed tang, wedgetail blue tang. It is most closely related to genus Zebrasoma, with which it forms a sister group."
                     },
