@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VisualStudioCodeProjects\\Individual-Project\\Backend\\AnimalApi\\AnimalApi.csproj": {}
+    "c:\\VisualStudioCodeProjects\\Individual-Project\\Backend\\AnimalApi\\AnimalApi.csproj": {}
   },
   "projects": {
-    "C:\\VisualStudioCodeProjects\\Individual-Project\\Backend\\AnimalApi\\AnimalApi.csproj": {
+    "c:\\VisualStudioCodeProjects\\Individual-Project\\Backend\\AnimalApi\\AnimalApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VisualStudioCodeProjects\\Individual-Project\\Backend\\AnimalApi\\AnimalApi.csproj",
+        "projectUniqueName": "c:\\VisualStudioCodeProjects\\Individual-Project\\Backend\\AnimalApi\\AnimalApi.csproj",
         "projectName": "AnimalApi",
-        "projectPath": "C:\\VisualStudioCodeProjects\\Individual-Project\\Backend\\AnimalApi\\AnimalApi.csproj",
+        "projectPath": "c:\\VisualStudioCodeProjects\\Individual-Project\\Backend\\AnimalApi\\AnimalApi.csproj",
         "packagesPath": "C:\\Users\\johan\\.nuget\\packages\\",
-        "outputPath": "C:\\VisualStudioCodeProjects\\Individual-Project\\Backend\\AnimalApi\\obj\\",
+        "outputPath": "c:\\VisualStudioCodeProjects\\Individual-Project\\Backend\\AnimalApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\johan\\AppData\\Roaming\\NuGet\\NuGet.Config"

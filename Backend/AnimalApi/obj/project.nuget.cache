@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gRJ3TEF3zU8=",
+  "dgSpecHash": "IWmBu+MvNEg=",
   "success": true,
-  "projectFilePath": "C:\\VisualStudioCodeProjects\\Individual-Project\\Backend\\AnimalApi\\AnimalApi.csproj",
+  "projectFilePath": "c:\\VisualStudioCodeProjects\\Individual-Project\\Backend\\AnimalApi\\AnimalApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\johan\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\9.0.3\\microsoft.aspnetcore.diagnostics.entityframeworkcore.9.0.3.nupkg.sha512",
     "C:\\Users\\johan\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.3\\microsoft.entityframeworkcore.9.0.3.nupkg.sha512",
