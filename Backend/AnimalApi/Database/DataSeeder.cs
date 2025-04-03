@@ -8,6 +8,7 @@ namespace AnimalApi.Data
         public DataSeeder(AnimalDb db){
             _db = db;
         }
+        // SeedData seeds premade data for the Database per running session.
         public void SeedData(){
             
             {

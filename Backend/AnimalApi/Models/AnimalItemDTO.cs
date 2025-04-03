@@ -1,3 +1,4 @@
+// AnimalItemDTO is a class you use when you want to limit the data you want to send to the Database, ex. sensitive information.
 public class AnimalItemDTO {
     public int Id { get; set; }
     public string? Image { get; set; }
