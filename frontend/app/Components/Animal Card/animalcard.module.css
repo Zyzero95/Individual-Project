@@ -1,6 +1,6 @@
 .anicardWrapper {
     width: 30vw;
-    height: 25vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
     background-color: var(--card-background);
@@ -12,7 +12,7 @@
 
     .anicardFigure {
         width: 100%;
-        height: 50%;
+        height: 60%;
         position: relative;
 
         img {
@@ -22,6 +22,7 @@
 
     .anicardName {
         color: var(--text-color-white);
+        text-shadow: 1px 1px 5px black;
     }
 
     .anicardEnvSection {
@@ -175,6 +176,63 @@
 
     .anicardButton {
         width: 100%;
-        height: 2rem;
+        height: 2.5rem;
+        text-shadow: 1px 1px 5px black;
+        border: none;
+        background-color: var(--card-button);
+    }
+}
+@media only screen and (max-width: 1459px) {
+    .anicardWrapper {
+        width: 40vw;
+        height: 35vh;
+
+        .anicardEnvSection {
+            width: clamp(25vw, 10vw, 35vw);
+        }
+    }
+}
+
+@media only screen and (max-width: 1168px) {
+    .anicardWrapper {
+        width: 50vw;
+        height: 35vh;
+
+        .anicardEnvSection {
+            width: clamp(35vw, 10vw, 45vw);
+        }
+    }
+}
+
+@media only screen and (max-width: 834px) {
+    .anicardWrapper {
+        width: 65vw;
+        height: 35vh;
+
+        .anicardEnvSection {
+            width: clamp(60vw, 10vw, 70vw);
+        }
+    }
+}
+
+@media only screen and (max-width: 487px){
+    .anicardWrapper {
+        width: 80vw;
+        height: 35vh;
+
+        .anicardEnvSection {
+            width: clamp(80vw, 10vw, 90vw);
+        }
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .anicardWrapper {
+        width: 90vw;
+        height: 50vh;
+
+        .anicardEnvSection {
+            width: clamp(90vw, 10vw, 100vw);
+        }
     }
 }
