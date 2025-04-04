@@ -27,7 +27,7 @@ export default function AnimalCard({ data }: AnimalData) {
       <section className={styles.anicardEnvSection}>
         {data.environment.map((env) => <p key={env} className={`${styles.anicardEnv}${env}`}>{env == "CoralReef" ? "Coral Reef" : env == "DeepOcean" ? "Deep Ocean" : env == "RockyReefs" ? "Rocky Reefs": env}</p>)}
       </section>
-      <button className={styles.anicardButton} type="button" onClick={() => router.push(`/${data.id}`)}>Facts</button>
+      <button className={styles.anicardButton} type="button" onClick={() => router.push(`/${data.id}`)}>Facts about me!</button>
     </section>
   )
 }
