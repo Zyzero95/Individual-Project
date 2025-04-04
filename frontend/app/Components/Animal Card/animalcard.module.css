@@ -122,12 +122,13 @@
         color: var(--text-color-white);
         border: none;
         background-color: var(--card-button);
+        font-size: 1rem;
+        font-weight: 600;
         transition: all 0.35s ease-in-out;
     }
 
     .anicardButton:hover {
-        font-size: 1rem;
-        font-weight: 600;
+        font-size: 1.5rem;
     }
 }
 /* Media Queries for better responsiveness */
