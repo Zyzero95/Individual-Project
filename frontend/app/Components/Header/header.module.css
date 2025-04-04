@@ -12,10 +12,10 @@
     }
 
     .headerMobileMenu {
-        width: 25%;
-        height: 30%;
+        width: 35%;
+        height: 30vh;
         position: absolute;
-        left: 70vw;
+        left: 65vw;
         top: 1.5vh;
         display: none;
 
@@ -58,19 +58,16 @@
         }
 
         .headerMobile {
-            
             display: flex;
             flex-direction: column;
             justify-content: center;
-            height: 100%;
             border: 1px solid transparent;
             border-radius: 10px;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             z-index: 1;
-            background-color: var(--header-background);
+            background-color: var(--main-background);
+            margin: 0.5rem;
             
-            
-    
             .headerNavMobile {
                 ul {
                     list-style: none;
@@ -93,10 +90,6 @@
             }
         }
     }
-
-    
-
-    
 
     .headerNav {
         display: block;
@@ -129,21 +122,10 @@
             display: none;
         }
 
-        .headerMobileMenu {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-            .headerMobile {
-                
-    
-                .headerNavMobile {
-                    display: block;
-                }
-    
-                
-            }
-        }
+    .headerMobileMenu {
+        display: flex;
+        justify-content: center;
+    }
         
     }
 }
@@ -153,11 +135,9 @@
         .headerNav {
             display: none;
         }
-
-        /* .headerMobile {
-            display: block;
-            left: 85vw;
-        } */
+        .headerMobileMenu {
+            left: 60vw;
+        }
     }
 }
 
@@ -166,18 +146,8 @@
         .headerNav {
             display: none;
         }
-
-        .headerMobile {
-            display: block;
-            left: 80vw;
-
-            .headerNavMobile {
-                display: none;
-            }
-
-            .lucideMenuIconClose {
-                display: none;
-            }
+        .headerMobileMenu {
+            left: 60vw;
         }
     }
 }
