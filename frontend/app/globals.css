@@ -1,18 +1,18 @@
+/* Global variables colors for the whole project */
 :root {
     --header-background: #353723;
     --footer-background: #353723;
-    --main-background: #617352;
-    --card-background: #A0A56E;
+    --main-background: #49563e;
+    --card-background: #838653;
+    --card-button: #353723;
+    --env-green: #00755E;
+    --env-blue: #064273;
+    --env-lightblue: #1e5b6e;
+    --env-gray: #444444;
+    --env-brown: #4d250f;
     --searchbar-background: #FFECBD; /*Undecided background color*/
     --text-color-black: #0a0a0a;
     --text-color-white: #ededed;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #ffffff;
-    --foreground: #171717;
-  }
 }
 
 html,
@@ -21,14 +21,14 @@ body {
   overflow-x: hidden;
 }
 
+/* Body Styling for all pages */
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* CSS Reset */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -38,10 +38,4 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }
