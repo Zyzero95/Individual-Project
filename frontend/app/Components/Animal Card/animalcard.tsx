@@ -19,7 +19,7 @@ export default function AnimalCard({ data }: AnimalData) {
             src={data.image}
             alt={`Image depicting ${data.name}. Uploaded from Unsplash.`}
             fill={true}
-            sizes="1000px"
+            sizes="450px"
             priority={true}
         />
       </figure>

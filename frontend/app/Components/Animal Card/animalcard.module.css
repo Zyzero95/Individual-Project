@@ -23,16 +23,16 @@
 
     .anicardName {
         color: var(--text-color-white);
-        text-shadow: 1px 1px 5px black;
+        text-shadow: 1px 1px 2px black;
     }
 
     .anicardEnvSection {
-        width: clamp(20vw, 10vw, 30vw);
+        width: clamp(25vw, 10vw, 30vw);
         display: flex;
         justify-content: space-evenly;
 
         .anicardEnv {
-            
+            border-radius: 1px;
         }
 
         .anicardEnvRainforest,
@@ -69,110 +69,47 @@
             font-weight: 600;
         }
 
-        .anicardEnvRainforest {
-            background-color: var(--env-rainforest);
-        }
-
-        .anicardEnvSavanna {
-            background-color: var(--env-savanna);
-        }
-
-        .anicardEnvSwamps {
-            background-color: var(--env-swamps);
-        }
-
-        .anicardEnvMarshes {
-            background-color: var(--env-marshes);
-        }
-
-        .anicardEnvRivers {
-            background-color: var(--env-rivers);
-        }
-
-        .anicardEnvGrasslands {
-            background-color: var(--env-grasslands);
-        }
-
-        .anicardEnvWetlands{
-            background-color: var(--env-wetlands);
-        }
-
-        .anicardEnvPlains {
-            background-color: var(--env-plains);
-        }
-
-        .anicardEnvLakes {
-            background-color: var(--env-lakes);
-        }
-
-        .anicardEnvMountain {
-            background-color: var(--env-mountain);
-        }
-
-        .anicardEnvArctic {
-            background-color: var(--env-arctic);
-        }
-
-        .anicardEnvTundra {
-            background-color: var(--env-tundra);
-        }
-
-        .anicardEnvOcean {
-            background-color: var(--env-ocean);
-        }
-
-        .anicardEnvAtlantic {
-            background-color: var(--env-atlantic);
-        }
-
-        .anicardEnvForest {
-            background-color: var(--env-forest);
-        }
-
-        .anicardEnvCoastal {
-            background-color: var(--env-coastal);
-        }
-
-        .anicardEnvBeaches {
-            background-color: var(--env-beaches);
-        }
-
+        .anicardEnvRainforest,
+        .anicardEnvForest,
+        .anicardEnvCoastal,
+        .anicardEnvBeaches,
         .anicardEnvPacific {
-            background-color: var(--env-pacific);
+            background-color: var(--env-green);
         }
 
-        .anicardEnvCaves {
-            background-color: var(--env-caves);
-        }
-
-        .anicardEnvSteppes {
-            background-color: var(--env-steppes);
-        }
-
-        .anicardEnvLagoons {
-            background-color: var(--env-lagoons);
-        }
-
-        .anicardEnvOceanic {
-            background-color: var(--env-oceanic);
-        }
-
-        .anicardEnvIndian {
-            background-color: var(--env-indian);
-        }
-
-        .anicardEnvCoralReef {
-            background-color: var(--env-coralreef);
-        }
-
-        .anicardEnvRockyReefs {
-            background-color: var(--env-rockyreefs);
-        }
-
-        .anicardEnvDeepOcean {
-            background-color: var(--env-deepocean);
-        }
         
+        .anicardEnvSwamps,
+        .anicardEnvGrasslands,
+        .anicardEnvWetlands,
+        .anicardEnvPlains,
+        .anicardEnvTundra,
+        .anicardEnvSteppes {
+            background-color: var(--env-lightblue);
+        }
+
+        .anicardEnvRivers,
+        .anicardEnvLakes,
+        .anicardEnvOcean,
+        .anicardEnvAtlantic,
+        .anicardEnvLagoons,
+        .anicardEnvOceanic,
+        .anicardEnvIndian,
+        .anicardEnvDeepOcean {
+            background-color: var(--env-blue);
+        }
+
+        .anicardEnvMountain,
+        .anicardEnvCoralReef,
+        .anicardEnvRockyReefs,
+        .anicardEnvArctic {
+            background-color: var(--env-gray);
+        }
+
+        .anicardEnvCaves,
+        .anicardEnvMarshes,
+        .anicardEnvSavanna {
+            background-color: var(--env-brown);
+        }
     }
 
     .anicardButton {

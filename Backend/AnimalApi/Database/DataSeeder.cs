@@ -36,7 +36,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 3,
-                        Image = @"https://images.unsplash.com/photo-1604165645922-eb8fdc7d84ee?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = @"https://images.unsplash.com/photo-1509243271451-2b84555736ad?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Sloth",
                         Species = "Mammal",
                         Environment = ["Rainforest"],
@@ -45,7 +45,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 4,
-                        Image = @"https://images.unsplash.com/photo-1581281863883-2469417a1668?q=80&w=1951&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = @"https://images.unsplash.com/photo-1546146020-c84c6bf355bf?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Gorilla",
                         Species = "Mammal",
                         Environment = ["Rainforest"],
@@ -54,7 +54,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 5,
-                        Image = @"https://images.unsplash.com/photo-1616902509409-a624c4f31a56?q=80&w=2083&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = @"https://images.unsplash.com/photo-1510272839903-5112a2e44bc6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Macaw",
                         Species = "Bird",
                         Environment = ["Rainforest"],
@@ -63,7 +63,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 6,
-                        Image = @"https://images.unsplash.com/photo-1619038779484-a27362fb82cd?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = @"https://images.unsplash.com/photo-1552761047-68f241b7aef4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Toucan",
                         Species = "Bird",
                         Environment = ["Rainforest"],
@@ -72,7 +72,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 7,
-                        Image = @"https://images.unsplash.com/photo-1714622343884-7494d44b30fa?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = @"https://images.unsplash.com/photo-1716064554838-f9ae49db992b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Capybara",
                         Species = "Mammal",
                         Environment = ["Rainforest", "Marshes", "Swamps"],
@@ -126,7 +126,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 13,
-                        Image = @"https://images.unsplash.com/photo-1534567110243-8875d64ca8ff?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = @"https://images.unsplash.com/photo-1612358405970-e1aeba9d76c2?q=80&w=2105&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Giraffe",
                         Species = "Mammal",
                         Environment = ["Savanna"],
@@ -423,7 +423,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 46,
-                        Image = @"https://images.unsplash.com/photo-1615018160530-d37d31520d87?q=80&w=1926&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = @"https://images.unsplash.com/photo-1444465986331-f9f14553c73c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Woodpecker",
                         Species = "Bird",
                         Environment = ["Forest", "Savanna",],
