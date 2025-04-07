@@ -11,6 +11,7 @@ export default function Header() {
 
     const toggleMenu = () => {
         setMenuToggle(toggle => !toggle);
+        
     }
 
   return (
@@ -22,9 +23,9 @@ export default function Header() {
             <section className={menuToggle === true ? styles.headerMobile : styles.headerMobileToggled}>
                 <nav className={styles.headerNavMobile}>
                 <ul>
-                    <li><Link href="/"/>Home</li>
-                    <li><Link href="/about"/>About</li>
-                    <li><Link href=""/>Random Animal</li>
+                    <li><Link href={"/"}>Home</Link></li>
+                    <li><Link href={"/about"}>About</Link></li>
+                    <li><Link href={"/"}>Random Animal</Link></li>
                 </ul>
                 </nav>
             </section>
@@ -32,9 +33,9 @@ export default function Header() {
         
         <nav className={styles.headerNav}>
             <ul>
-                <li><Link href="/"/>Home</li>
-                <li><Link href="/about"/>About</li>
-                <li><Link href=""/>Random Animal</li>
+                <li><Link href={"/"}>Home</Link></li>
+                <li><Link href={"/about"}>About</Link></li>
+                <li><Link href={"/"}>Random Animal</Link></li>
             </ul>
         </nav>
     </header>

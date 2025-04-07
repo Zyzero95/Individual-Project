@@ -129,6 +129,7 @@
 
     .anicardButton:hover {
         font-size: 1.5rem;
+        cursor: pointer;
     }
 }
 /* Media Queries for better responsiveness */
