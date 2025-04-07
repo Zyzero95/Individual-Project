@@ -1,0 +1,32 @@
+.heroSection {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+
+    .heroFig {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        animation: slideshow 25s ease-in-out alternate infinite;
+    }
+}
+
+@keyframes slideshow {
+    0% {
+        background-image: url("Hero-Images/heroImage-Forest.jpg");
+    }
+    25% {
+        background-image: url("Hero-Images/heroImage-Savanna.jpg");
+    }
+    50% {
+        background-image: url("Hero-Images/heroImage-Arctic.jpg");
+    }
+    75% {
+        background-image: url("./Hero-Images/heroImage-Ocean.jpg");
+    }
+    100% {
+        background-image: url("Hero-Images/heroImage-CoralReef.jpg");
+    }
+}
