@@ -2,8 +2,6 @@
 .footerSection {
     height: 20vh;
     background-color: var(--footer-background);
-    color: var(--text-color-white);
-    text-shadow: 1px 1px 2px black;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
