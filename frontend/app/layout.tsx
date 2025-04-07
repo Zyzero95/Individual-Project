@@ -3,6 +3,7 @@ import { Roboto } from "next/font/google";
 import "./globals.css";
 import Header from "./Components/Header/header";
 import Footer from "./Components/Footer/footer";
+import HeroSection from "./Components/Hero Section/herosection";
 
 
 
@@ -25,6 +26,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${roboto.variable}`}>
         <Header/>
+        <HeroSection/>
         {children}
         <Footer/>
       </body>
