@@ -1,0 +1,163 @@
+/* Styling for Header Component */
+.headerSection {
+    height: 8vh;
+    background-color: var(--header-background);
+    color: var(--text-color-white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-shadow: 1px 1px 2px black;
+
+    .headerTitle {
+        margin-left: 1rem;
+    }
+
+    /* Mobile Styling */
+    .headerMobileMenu {
+        width: 25vw;
+        height: 20vh;
+        position: absolute;
+        left: 70vw;
+        top: 1.5vh;
+        display: none;
+
+        .lucideMenuIcon {
+            position: absolute;
+            z-index: 2;
+            display: block;
+            transition: all 0.3s ease;
+        }
+
+        .lucideMenuIcon:hover {
+            width: 54px;
+            height: 54px;
+            cursor: pointer;
+        }
+
+        .lucideMenuIconToggled {
+            display: none;
+        }
+    
+        .lucideMenuIconClose {
+            display: none;
+        }
+
+        .lucideMenuIconCloseToggled {
+            display: block;
+            position: absolute;
+            z-index: 2;
+            transition: all 0.3s ease;
+        }
+
+        .lucideMenuIconCloseToggled:hover {
+            width: 54px;
+            height: 54px;
+            cursor: pointer;
+        }
+
+        .headerMobileToggled {
+            visibility: hidden;
+            opacity: 0;
+        }
+
+        .headerMobile {
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            border: 1px solid transparent;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            z-index: 1;
+            background-color: var(--header-background);
+            visibility: visible;
+            opacity: 1;
+            transition : visibility 0s, opacity 0.5s linear;
+            
+            .headerNavMobile {
+                height: 80%;
+                margin: 1rem;
+                background-color: var(--main-background);
+                border-radius: 10px;
+                ul {
+                    height: 100%;
+                    list-style: none;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    li {
+                        margin-right: 1rem;
+                        margin-left: 1rem;
+                        padding: 0.25rem;
+                        padding-left: 0.5rem;
+                        padding-right: 0.5rem;
+                        font-weight: 600;
+                        font-size: 1.25rem;
+                        transition: all 0.3s ease;
+                    }
+                    li:hover {
+                        font-size: 1.5rem;
+                        cursor: pointer;
+                        border: 1px solid transparent;
+                        border-radius: 10px;
+                        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                    }
+                    a {
+                        display: block;
+                        width: 100%;  
+                        text-align: center;  
+                    }
+                }
+            }
+        }
+    }
+    /* Desktop Styling */
+    .headerNav {
+        display: block;
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            li {
+                margin-right: 1rem;
+                font-weight: 600;
+                font-size: 1.25rem;
+                padding: 1rem;
+                transition: all 0.3s ease;
+            }
+            li:hover {
+                font-size: 1.5rem;
+                cursor: pointer;
+                border: 1px solid transparent;
+                border-radius: 10px;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            }
+            a {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}
+
+/* Media queries for better responsiveness */
+@media only screen and (max-width: 620px){
+    .headerSection {
+        .headerNav {
+           display: none;
+        }
+
+    .headerMobileMenu {
+        display: flex;
+        justify-content: end;
+    }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .headerTitle {
+        width: 50%;
+        text-align: center;
+        line-height: 1.7rem;
+    }
+}
