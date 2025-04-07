@@ -6,14 +6,15 @@ import { useState } from "react";
 
 
 export default function Header() {
-
+    // useState for hamburger menu.
     const [menuToggle, setMenuToggle] = useState(false);
 
+    // Function for setting state.
     const toggleMenu = () => {
         setMenuToggle(toggle => !toggle);
         
     }
-
+    // Mobile view. Changing CSS class depending on state. 
   return (
     <header className={styles.headerSection}>
         <h1 className={styles.headerTitle}>Animal Facts</h1>
@@ -30,7 +31,7 @@ export default function Header() {
                 </nav>
             </section>
         </section>
-        
+        {/* Desktop view */}
         <nav className={styles.headerNav}>
             <ul>
                 <li><Link href={"/"}>Home</Link></li>
