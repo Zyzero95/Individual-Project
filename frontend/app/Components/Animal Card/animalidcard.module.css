@@ -1,0 +1,53 @@
+.idWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 2rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--card-background);
+    height: 50vh;
+    width: 90vw;
+    
+    .idFig {
+        position: relative;
+        height: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+        grid-row: span 2;
+
+        img {
+            object-fit: cover;
+        }
+    }
+
+    .idInfoWrapper {
+        width: 100%;
+        justify-items: center;
+
+        .idName {
+            font-size: 3rem;
+        }
+    }
+
+    .idDescWrapper {
+        border-top: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .idDescHeading {
+            font-size: 2rem;
+            margin-top: 0.5rem;
+        }
+
+        .idDesc {
+            margin: 0.5rem;
+            margin-top: 1rem;
+            font-size: 1.25rem;
+            text-align: center;
+        }
+    }
+    
+}

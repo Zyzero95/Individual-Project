@@ -27,7 +27,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 2,
-                        Image = @"https://images.unsplash.com/photo-1566544496485-02b11e54229b?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1566544496485-02b11e54229b?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Jaguar",
                         Species = "Mammal",
                         Environment = ["Rainforest", "Swamps"],
@@ -36,7 +36,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 3,
-                        Image = @"https://images.unsplash.com/photo-1509243271451-2b84555736ad?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1509243271451-2b84555736ad?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Sloth",
                         Species = "Mammal",
                         Environment = ["Rainforest"],
@@ -45,7 +45,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 4,
-                        Image = @"https://images.unsplash.com/photo-1546146020-c84c6bf355bf?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1546146020-c84c6bf355bf?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Gorilla",
                         Species = "Mammal",
                         Environment = ["Rainforest"],
@@ -54,7 +54,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 5,
-                        Image = @"https://images.unsplash.com/photo-1510272839903-5112a2e44bc6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1510272839903-5112a2e44bc6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Macaw",
                         Species = "Bird",
                         Environment = ["Rainforest"],
@@ -63,7 +63,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 6,
-                        Image = @"https://images.unsplash.com/photo-1552761047-68f241b7aef4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1552761047-68f241b7aef4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Toucan",
                         Species = "Bird",
                         Environment = ["Rainforest"],
@@ -72,7 +72,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 7,
-                        Image = @"https://images.unsplash.com/photo-1716064554838-f9ae49db992b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1716064554838-f9ae49db992b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Capybara",
                         Species = "Mammal",
                         Environment = ["Rainforest", "Marshes", "Swamps"],
@@ -81,7 +81,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 8,
-                        Image = @"https://images.unsplash.com/photo-1726754412634-fa5d1eb89636?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1726754412634-fa5d1eb89636?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Howler Monkey",
                         Species = "Mammal",
                         Environment = ["Rainforest"],
@@ -90,7 +90,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 9,
-                        Image = @"https://images.unsplash.com/photo-1575590364024-614acdbcbcfc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1575590364024-614acdbcbcfc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Spider monkey",
                         Species = "Mammal",
                         Environment = ["Rainforest"],
@@ -99,7 +99,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 10,
-                        Image = @"https://images.unsplash.com/photo-1710814449080-41c9e533e22d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1710814449080-41c9e533e22d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Emerald tree boa",
                         Species = "Reptile",
                         Environment = ["Rainforest"],
@@ -108,16 +108,16 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 11,
-                        Image = @"https://images.unsplash.com/photo-1611069648374-733e7bb73e5c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1611069648374-733e7bb73e5c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Crocodile",
                         Species = "Reptile",
                         Environment = ["Savanna", "Rivers"],
                         FoodPreference = "Carnivore",
-                        Description = ""
+                        Description = "Crocodiles (family Crocodylidae) or true crocodiles are large, semiaquatic reptiles that live throughout the tropics in Africa, Asia, the Americas and Australia. The term “crocodile” is sometimes used more loosely to include all extant members of the order Crocodilia, which includes the alligators and caimans (both members of the family Alligatoridae), the gharial and false gharial (both members of the family Gavialidae) as well as other, extinct, taxa."
                     },
                     new Animal {
                         Id = 12,
-                        Image = @"https://images.unsplash.com/photo-1546182990-dffeafbe841d?q=80&w=2059&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1546182990-dffeafbe841d?q=80&w=2059&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Lion",
                         Species = "Mammal",
                         Environment = ["Savanna", "Grasslands"],
@@ -126,7 +126,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 13,
-                        Image = @"https://images.unsplash.com/photo-1612358405970-e1aeba9d76c2?q=80&w=2105&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1612358405970-e1aeba9d76c2?q=80&w=2105&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Giraffe",
                         Species = "Mammal",
                         Environment = ["Savanna"],
@@ -135,7 +135,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 14,
-                        Image = @"https://images.unsplash.com/photo-1581852017103-68ac65514cf7?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1581852017103-68ac65514cf7?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Elephant",
                         Species = "Mammal",
                         Environment = ["Savanna", "Wetlands", "Grasslands"],
@@ -144,7 +144,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 15,
-                        Image = @"https://images.unsplash.com/photo-1513109513338-3388e3b82e8a?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1513109513338-3388e3b82e8a?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Hyena",
                         Species = "Mammal",
                         Environment = ["Savanna", "Grasslands"],
@@ -153,7 +153,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 16,
-                        Image = @"https://images.unsplash.com/photo-1624958319297-d1aa3a41378e?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1624958319297-d1aa3a41378e?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Cheetah",
                         Species = "Mammal",
                         Environment = ["Savanna", "Grasslands"],
@@ -162,7 +162,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 17,
-                        Image = @"https://images.unsplash.com/photo-1517118828960-de5ea37d8ae6?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1517118828960-de5ea37d8ae6?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Wildebeest",
                         Species = "Mammal",
                         Environment = ["Savanna", "Plains"],
@@ -171,7 +171,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 18,
-                        Image = @"https://images.unsplash.com/photo-1562426772-f7b1d159764b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1562426772-f7b1d159764b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Hippo",
                         Species = "Mammal",
                         Environment = ["Savanna", "Rivers", "Lakes"],
@@ -180,7 +180,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 19,
-                        Image = @"https://images.unsplash.com/photo-1504296601235-4d6bb2f25320?q=80&w=1984&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1504296601235-4d6bb2f25320?q=80&w=1984&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Gazelle",
                         Species = "Mammal",
                         Environment = ["Savanna", "Grasslands"],
@@ -189,7 +189,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 20,
-                        Image = @"https://images.unsplash.com/photo-1557447928-9a1ca5819ed6?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1557447928-9a1ca5819ed6?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Baboon",
                         Species = "Mammal",
                         Environment = ["Savanna", "Mountain"],
@@ -198,7 +198,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 21,
-                        Image = @"https://images.unsplash.com/photo-1590787996529-a542c86ca267?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1590787996529-a542c86ca267?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Polar Bear",
                         Species = "Mammal",
                         Environment = ["Arctic", "Tundra"],
@@ -207,7 +207,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 22,
-                        Image = @"https://images.unsplash.com/photo-1552326731-fa4d01c2f36f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1552326731-fa4d01c2f36f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Emperor Penguin",
                         Species = "Bird",
                         Environment = ["Arctic", "Tundra"],
@@ -216,7 +216,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 23,
-                        Image = @"https://images.unsplash.com/photo-1531098245163-31b7ff3bb701?q=80&w=2013&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1531098245163-31b7ff3bb701?q=80&w=2013&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Snowy Owl",
                         Species = "Bird",
                         Environment = ["Arctic", "Grasslands"],
@@ -225,7 +225,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 24,
-                        Image = @"https://images.unsplash.com/photo-1697030891256-36a3770cddde?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1697030891256-36a3770cddde?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Tuna",
                         Species = "Fish",
                         Environment = ["Ocean", "Atlantic"],
@@ -234,7 +234,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 25,
-                        Image = @"https://images.unsplash.com/photo-1612443385720-b4181d2ab928?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1612443385720-b4181d2ab928?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Beluga Whale",
                         Species = "Mammal",
                         Environment = ["Arctic", "Ocean"],
@@ -243,7 +243,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 26,
-                        Image = @"https://images.unsplash.com/photo-1635810766767-ca010af2d77b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1635810766767-ca010af2d77b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Leopard Seal",
                         Species = "Mammal",
                         Environment = ["Arctic", "Ocean"],
@@ -252,7 +252,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 27,
-                        Image = @"https://images.unsplash.com/photo-1544982772-d83aeb8cf70f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1544982772-d83aeb8cf70f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Snow Leopard",
                         Species = "Mammal",
                         Environment = ["Arctic", "Mountain", "Tundra"],
@@ -261,7 +261,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 28,
-                        Image = @"https://images.unsplash.com/photo-1607346444518-2abde24da0a0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1607346444518-2abde24da0a0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Arctic Wolf",
                         Species = "Mammal",
                         Environment = ["Arctic", "Tundra"],
@@ -270,7 +270,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 29,
-                        Image = @"https://images.unsplash.com/photo-1562193965-801a55de0998?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1562193965-801a55de0998?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Mountain Goat",
                         Species = "Mammal",
                         Environment = ["Arctic", "Mountain"],
@@ -279,7 +279,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 30,
-                        Image = @"https://images.unsplash.com/photo-1581853230165-b71de20b7f37?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1581853230165-b71de20b7f37?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Reindeer",
                         Species = "Mammal",
                         Environment = ["Arctic", "Tundra", "Forest"],
@@ -288,7 +288,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 31,
-                        Image = @"https://images.unsplash.com/photo-1586115457457-b3753fe50cf1?q=80&w=1988&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1586115457457-b3753fe50cf1?q=80&w=1988&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Great White Shark",
                         Species = "Fish",
                         Environment = ["Ocean", "Coastal"],
@@ -297,7 +297,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 32,
-                        Image = @"https://images.unsplash.com/photo-1698472505070-6d3b90afb530?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1698472505070-6d3b90afb530?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Sperm Whale",
                         Species = "Piscivore",
                         Environment = ["Ocean", "DeepOcean", "Arctic"],
@@ -306,7 +306,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 33,
-                        Image = @"https://images.unsplash.com/photo-1496196614460-48988a57fccf?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1496196614460-48988a57fccf?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Sea Turtle",
                         Species = "Reptile",
                         Environment = ["Ocean", "Beaches"],
@@ -315,7 +315,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 34,
-                        Image = @"https://images.unsplash.com/photo-1701299762068-fa90e1234d45?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1701299762068-fa90e1234d45?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Blue Tang",
                         Species = "Fish",
                         Environment = ["Ocean", "CoralReef"],
@@ -324,7 +324,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 35,
-                        Image = @"https://images.unsplash.com/photo-1706957782008-c26bd6c10840?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1706957782008-c26bd6c10840?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Hammerhead Shark",
                         Species = "Piscivore",
                         Environment = ["Ocean", "Coastal"],
@@ -333,7 +333,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 36,
-                        Image = @"https://images.unsplash.com/photo-1584267814800-c9de7a2cfeac?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1584267814800-c9de7a2cfeac?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Anglerfish",
                         Species = "Piscivore",
                         Environment = ["Ocean", "DeepOcean", "Atlantic", "Arctic"],
@@ -342,7 +342,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 37,
-                        Image = @"https://images.unsplash.com/photo-1629055087005-6798b9f8658d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1629055087005-6798b9f8658d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Lobster",
                         Species = "Crustacean",
                         Environment = ["Ocean", "Coastal"],
@@ -351,7 +351,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 38,
-                        Image = @"https://images.unsplash.com/photo-1602264836619-094873fa05fc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1602264836619-094873fa05fc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Orca",
                         Species = "Mammal",
                         Environment = ["Ocean", "Atlantic", "Pacific", "Arctic"],
@@ -360,7 +360,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 39,
-                        Image = @"https://images.unsplash.com/photo-1511828859793-8737beeff054?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1511828859793-8737beeff054?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Common Octopus",
                         Species = "Cephalopod",
                         Environment = ["Ocean", "Coastal"],
@@ -369,7 +369,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 40,
-                        Image = @"https://images.unsplash.com/photo-1597378609416-47cc937b294c?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1597378609416-47cc937b294c?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Sea Otter",
                         Species = "Mammal",
                         Environment = ["Ocean", "Coastal"],
@@ -378,7 +378,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 41,
-                        Image = @"https://images.unsplash.com/photo-1603781194892-78a8e6f8b77f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1603781194892-78a8e6f8b77f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Moose",
                         Species = "Mammal",
                         Environment = ["Forest", "Arctic"],
@@ -387,7 +387,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 42,
-                        Image = @"https://images.unsplash.com/photo-1476922027627-aa7293e3aaa8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1476922027627-aa7293e3aaa8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Deer",
                         Species = "Mammal",
                         Environment = ["Forest", "Grasslands"],
@@ -396,7 +396,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 43,
-                        Image = @"https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Brown Bear",
                         Species = "Mammal",
                         Environment = ["Forest", "Mountain", "Caves"],
@@ -405,7 +405,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 44,
-                        Image = @"https://images.unsplash.com/photo-1724177457173-0817c44ae424?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1724177457173-0817c44ae424?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Northern Bat",
                         Species = "Mammal",
                         Environment = ["Forest", "Caves"],
@@ -414,7 +414,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 45,
-                        Image = @"https://images.unsplash.com/photo-1577382539866-5ef07a099858?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1577382539866-5ef07a099858?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Wild Boar",
                         Species = "Mammal",
                         Environment = ["Forest", "Grasslands", "Wetlands", "Steppes"],
@@ -423,7 +423,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 46,
-                        Image = @"https://images.unsplash.com/photo-1444465986331-f9f14553c73c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1444465986331-f9f14553c73c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Woodpecker",
                         Species = "Bird",
                         Environment = ["Forest", "Savanna",],
@@ -432,7 +432,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 47,
-                        Image = @"https://images.unsplash.com/photo-1607350999170-b893fef057ea?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1607350999170-b893fef057ea?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Wolf",
                         Species = "Mammal",
                         Environment = ["Forest", "Tundra", "Grasslands"],
@@ -441,7 +441,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 48,
-                        Image = @"https://images.unsplash.com/photo-1641047258999-9c9bbcbf1aa2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1641047258999-9c9bbcbf1aa2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Viper",
                         Species = "Reptile",
                         Environment = ["Forest", "Wetlands", "Swamps"],
@@ -450,7 +450,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 49,
-                        Image = @"https://images.unsplash.com/photo-1590079015089-875baa76cc8d?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1590079015089-875baa76cc8d?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Squirrel",
                         Species = "Mammal",
                         Environment = ["Forest"],
@@ -459,7 +459,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 50,
-                        Image = @"https://images.unsplash.com/photo-1667927028881-73a2c59e8bcd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1667927028881-73a2c59e8bcd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Lynx",
                         Species = "Mammal",
                         Environment = ["Forest", "Mountain"],
@@ -468,7 +468,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 51,
-                        Image = @"https://images.unsplash.com/photo-1567784055803-b9d0a50d88e3?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1567784055803-b9d0a50d88e3?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Manta Ray",
                         Species = "Mammal",
                         Environment = ["CoralReef", "Ocean", "Coastal"],
@@ -477,7 +477,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 52,
-                        Image = @"https://images.unsplash.com/photo-1544552866-d3ed42536cfd?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1544552866-d3ed42536cfd?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Clownfish",
                         Species = "Fish",
                         Environment = ["CoralReef", "Ocean", "Lagoons"],
@@ -486,7 +486,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 53,
-                        Image = @"https://images.unsplash.com/photo-1702872769303-54d80e668424?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1702872769303-54d80e668424?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Butterflyfish",
                         Species = "Fish",
                         Environment = ["CoralReef", "Ocean", "Oceanic"],
@@ -495,7 +495,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 54,
-                        Image = @"https://images.unsplash.com/photo-1650978688025-c48862fde84a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1650978688025-c48862fde84a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Giant Clam",
                         Species = "Mollusc",
                         Environment = ["CoralReef", "Ocean"],
@@ -504,7 +504,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 55,
-                        Image = @"https://images.unsplash.com/photo-1703248187588-393e532ed0e4?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1703248187588-393e532ed0e4?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Lionfish",
                         Species = "Fish",
                         Environment = ["CoralReef", "Ocean"],
@@ -513,7 +513,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 56,
-                        Image = @"https://images.unsplash.com/photo-1722583881397-b74fdc551cf7?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1722583881397-b74fdc551cf7?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Moon Jellyfish",
                         Species = "Scyphozoa",
                         Environment = ["CoralReef", "Ocean", "Beaches"],
@@ -522,7 +522,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 57,
-                        Image = @"https://images.unsplash.com/photo-1602401800685-c6b5bb197e9f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1602401800685-c6b5bb197e9f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Potato Grouper",
                         Species = "Fish",
                         Environment = ["CoralReef", "Ocean", "Indian", "Pacific"],
@@ -531,7 +531,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 58,
-                        Image = @"https://images.unsplash.com/photo-1611362487572-2e5ac40c469d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1611362487572-2e5ac40c469d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Leafy Sea Dragon",
                         Species = "Fish",
                         Environment = ["CoralReef", "Ocean", "RockyReefs"],
@@ -540,7 +540,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 59,
-                        Image = @"https://images.unsplash.com/photo-1548375044-6797a0c71799?q=80&w=2157&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1548375044-6797a0c71799?q=80&w=2157&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Humphead Wrasse",
                         Species = "Fish",
                         Environment = ["CoralReef", "Ocean", "Indian", "Pacific"],
@@ -549,7 +549,7 @@ namespace AnimalApi.Data
                     },
                     new Animal {
                         Id = 60,
-                        Image = @"https://images.unsplash.com/photo-1516683169270-7514e272a5fc?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        Image = "https://images.unsplash.com/photo-1516683169270-7514e272a5fc?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Moray Eel",
                         Species = "Fish",
                         Environment = ["CoralReef", "Ocean"],

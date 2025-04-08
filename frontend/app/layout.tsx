@@ -9,7 +9,7 @@ import HeroSection from "./Components/Hero Section/herosection";
 
 const roboto = Roboto({
   variable: "--font-roboto",
-  subsets: ["latin"],
+  subsets: ["latin"]
 });
 
 export const metadata: Metadata = {

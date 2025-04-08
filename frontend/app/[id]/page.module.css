@@ -1,7 +1,6 @@
 .idPage {
     background-color: var(--main-background);
-
-    .idName {
-        
-    }
+    display: flex;
+    justify-content: center;
+    
 }
