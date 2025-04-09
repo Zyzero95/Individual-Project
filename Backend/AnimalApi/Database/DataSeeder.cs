@@ -32,7 +32,7 @@ namespace AnimalApi.Data
                         Species = "Mammal",
                         Environment = ["Rainforest", "Swamps"],
                         FoodPreference = "Carnivore",
-                        Description = "The jaguar (Panthera onca) is a large cat species and the only living member of the genus Panthera that is native to the Americas. With a body length of up to 1.85 m (6 ft 1 in) and a weight of up to 158 kg (348 lb), it is the biggest cat species in the Americas and the third largest in the world. Its distinctively marked coat features pale yellow to tan colored fur covered by spots that transition to rosettes on the sides, although a melanistic black coat appears in some individuals. The jaguar's powerful bite allows it to pierce the carapaces of turtles and tortoises, and to employ an unusual killing method: it bites directly through the skull of mammalian prey between the ears to deliver a fatal blow to the brain."
+                        Description = "The jaguar (Panthera onca) is a large cat species and the only living member of the genus Panthera that is native to the Americas. With a body length of up to 1.85 m (6 ft 1 in) and a weight of up to 158 kg (348 lb), it is the biggest cat species in the Americas and the third largest in the world. Its distinctively marked coat features pale yellow to tan colored fur covered by spots that transition to rosettes on the sides."
                     },
                     new Animal {
                         Id = 3,
@@ -59,7 +59,7 @@ namespace AnimalApi.Data
                         Species = "Bird",
                         Environment = ["Rainforest"],
                         FoodPreference = "Herbivore",
-                        Description = "Macaws are a group of New World parrots that are long-tailed and often colorful, in the tribe Arini.[1] They are popular in aviculture or as companion parrots, although there are conservation concerns about several species in the wild."
+                        Description = "Macaws are a group of New World parrots that are long-tailed and often colorful, in the tribe Arini. They are popular in aviculture or as companion parrots, although there are conservation concerns about several species in the wild."
                     },
                     new Animal {
                         Id = 6,
@@ -68,7 +68,7 @@ namespace AnimalApi.Data
                         Species = "Bird",
                         Environment = ["Rainforest"],
                         FoodPreference = "Omnivore",
-                        Description = "Toucans (/ˈtuːkæn/, UK: /-kən/) are Neotropical birds in the family Ramphastidae. They are most closely related to the Toucan barbets. They are brightly marked and have large, often colorful bills. The family includes five genera and over 40 different species."
+                        Description = "Toucans are Neotropical birds in the family Ramphastidae. They are most closely related to the Toucan barbets. They are brightly marked and have large, often colorful bills. The family includes five genera and over 40 different species."
                     },
                     new Animal {
                         Id = 7,
@@ -77,7 +77,7 @@ namespace AnimalApi.Data
                         Species = "Mammal",
                         Environment = ["Rainforest", "Marshes", "Swamps"],
                         FoodPreference = "Herbivore",
-                        Description = "The capybara[a] or greater capybara (Hydrochoerus hydrochaeris) is the largest living rodent,[2] native to South America. It is a member of the genus Hydrochoerus. The only other extant member is the lesser capybara (Hydrochoerus isthmius). Its close relatives include guinea pigs and rock cavies, and it is more distantly related to the agouti, the chinchilla, and the nutria. The capybara inhabits savannas and dense forests, and lives near bodies of water. It is a highly social species and can be found in groups as large as 100 individuals, but usually live in groups of 10–20 individuals. The capybara is hunted for its meat and hide and also for grease from its thick fatty skin.[3]"
+                        Description = "The capybara or greater capybara (Hydrochoerus hydrochaeris) is the largest living rodent, native to South America. It is a member of the genus Hydrochoerus. The only other extant member is the lesser capybara (Hydrochoerus isthmius). Its close relatives include guinea pigs and rock cavies, and it is more distantly related to the agouti, the chinchilla, and the nutria."
                     },
                     new Animal {
                         Id = 8,
@@ -86,7 +86,7 @@ namespace AnimalApi.Data
                         Species = "Mammal",
                         Environment = ["Rainforest"],
                         FoodPreference = "Herbivore",
-                        Description = "Howler monkeys (genus Alouatta, monotypic in subfamily Alouattinae) are the most widespread primate genus in the Neotropics and are among the largest of the platyrrhines along with the muriquis (Brachyteles), the spider monkeys (Ateles) and woolly monkeys (Lagotrix). The monkeys are native to South and Central American forests. They are famous for their loud howls, which can be heard up to three miles away through dense rain forest. Fifteen species are recognized. Previously classified in the family Cebidae, they are now placed in the family Atelidae. They are primarily folivores but also significant frugivores, acting as seed dispersal agents through their digestive system and their locomotion. Threats include human predation, habitat destruction, illegal wildlife trade, and capture for pets or zoo animals."
+                        Description = "Howler monkeys (genus Alouatta, monotypic in subfamily Alouattinae) are the most widespread primate genus in the Neotropics and are among the largest of the platyrrhines along with the muriquis (Brachyteles), the spider monkeys (Ateles) and woolly monkeys (Lagotrix). The monkeys are native to South and Central American forests. They are famous for their loud howls, which can be heard up to three miles away through dense rain forest."
                     },
                     new Animal {
                         Id = 9,
@@ -122,7 +122,7 @@ namespace AnimalApi.Data
                         Species = "Mammal",
                         Environment = ["Savanna", "Grasslands"],
                         FoodPreference = "Carnivore",
-                        Description = "The lion (Panthera leo) is a large cat of the genus Panthera, native to Africa and India. It has a muscular, broad-chested body; a short, rounded head; round ears; and a dark, hairy tuft at the tip of its tail. It is sexually dimorphic; adult male lions are larger than females and have a prominent mane. It is a social species, forming groups called prides. A lion's pride consists of a few adult males, related females, and cubs. Groups of female lions usually hunt together, preying mostly on medium-sized and large ungulates. The lion is an apex and keystone predator."
+                        Description = "The lion (Panthera leo) is a large cat of the genus Panthera, native to Africa and India. It has a muscular, broad-chested body; a short, rounded head; round ears; and a dark, hairy tuft at the tip of its tail. It is sexually dimorphic; adult male lions are larger than females and have a prominent mane. It is a social species, forming groups called prides. A lion's pride consists of a few adult males, related females, and cubs."
                     },
                     new Animal {
                         Id = 13,
@@ -131,7 +131,7 @@ namespace AnimalApi.Data
                         Species = "Mammal",
                         Environment = ["Savanna"],
                         FoodPreference = "Herbivore",
-                        Description = "The giraffe is a large African hoofed mammal belonging to the genus Giraffa. It is the tallest living terrestrial animal and the largest ruminant on Earth. Traditionally, giraffes have been thought of as one species, Giraffa camelopardalis, with nine subspecies. Most recently, researchers proposed dividing them into four extant species due to new research into their mitochondrial and nuclear DNA, and individual species can be distinguished by their fur coat patterns. Six valid extinct species of Giraffa from Africa and Pakistan are known from the fossil record."
+                        Description = "The giraffe is a large African hoofed mammal belonging to the genus Giraffa. It is the tallest living terrestrial animal and the largest ruminant on Earth. Traditionally, giraffes have been thought of as one species, Giraffa camelopardalis, with nine subspecies. Most recently, researchers proposed dividing them into four extant species due to new research into their mitochondrial and nuclear DNA, and individual species can be distinguished by their fur coat patterns."
                     },
                     new Animal {
                         Id = 14,
@@ -140,7 +140,7 @@ namespace AnimalApi.Data
                         Species = "Mammal",
                         Environment = ["Savanna", "Wetlands", "Grasslands"],
                         FoodPreference = "Herbivore",
-                        Description = "Elephants are the largest living land animals. Three living species are currently recognised: the African bush elephant (Loxodonta africana), the African forest elephant (L. cyclotis), and the Asian elephant (Elephas maximus). They are the only surviving members of the family Elephantidae and the order Proboscidea; extinct relatives include mammoths and mastodons. Distinctive features of elephants include a long proboscis called a trunk, tusks, large ear flaps, pillar-like legs, and tough but sensitive grey skin. The trunk is prehensile, bringing food and water to the mouth and grasping objects. Tusks, which are derived from the incisor teeth, serve both as weapons and as tools for moving objects and digging. The large ear flaps assist in maintaining a constant body temperature as well as in communication. African elephants have larger ears and concave backs, whereas Asian elephants have smaller ears and convex or level backs."
+                        Description = "Elephants are the largest living land animals. Three living species are currently recognised: the African bush elephant (Loxodonta africana), the African forest elephant (L. cyclotis), and the Asian elephant (Elephas maximus). They are the only surviving members of the family Elephantidae and the order Proboscidea; extinct relatives include mammoths and mastodons. Distinctive features of elephants include a long proboscis called a trunk, tusks, large ear flaps, pillar-like legs, and tough but sensitive grey skin."
                     },
                     new Animal {
                         Id = 15,
@@ -158,7 +158,7 @@ namespace AnimalApi.Data
                         Species = "Mammal",
                         Environment = ["Savanna", "Grasslands"],
                         FoodPreference = "Carnivore",
-                        Description = "The cheetah (Acinonyx jubatus) is a large cat and the fastest land animal. It has a tawny to creamy white or pale buff fur that is marked with evenly spaced, solid black spots. The head is small and rounded, with a short snout and black tear-like facial streaks. It reaches 67–94 cm (26–37 in) at the shoulder, and the head-and-body length is between 1.1 and 1.5 m (3 ft 7 in and 4 ft 11 in). Adults weigh between 21 and 65 kg (46 and 143 lb). The cheetah is capable of running at 93 to 104 km/h (58 to 65 mph); it has evolved specialized adaptations for speed, including a light build, long thin legs and a long tail."
+                        Description = "The cheetah (Acinonyx jubatus) is a large cat and the fastest land animal. It has a tawny to creamy white or pale buff fur that is marked with evenly spaced, solid black spots. The head is small and rounded, with a short snout and black tear-like facial streaks. It reaches 67–94 cm (26–37 in) at the shoulder, and the head-and-body length is between 1.1 and 1.5 m (3 ft 7 in and 4 ft 11 in). Adults weigh between 21 and 65 kg (46 and 143 lb). The cheetah is capable of running at 93 to 104 km/h (58 to 65 mph)."
                     },
                     new Animal {
                         Id = 17,
@@ -203,7 +203,7 @@ namespace AnimalApi.Data
                         Species = "Mammal",
                         Environment = ["Arctic", "Tundra"],
                         FoodPreference = "Carnivore",
-                        Description = "The polar bear (Ursus maritimus) is a large bear native to the Arctic and nearby areas. It is closely related to the brown bear, and the two species can interbreed. The polar bear is the largest extant species of bear and land carnivore, with adult males weighing 300–800 kg (660–1,760 lb). The species is sexually dimorphic, as adult females are much smaller. The polar bear is white- or yellowish-furred with black skin and a thick layer of fat. It is more slender than the brown bear, with a narrower skull, longer neck and lower shoulder hump. Its teeth are sharper and more adapted to cutting meat. The paws are large and allow the bear to walk on ice and paddle in the water."
+                        Description = "The polar bear (Ursus maritimus) is a large bear native to the Arctic and nearby areas. It is closely related to the brown bear, and the two species can interbreed. The polar bear is the largest extant species of bear and land carnivore, with adult males weighing 300–800 kg (660–1,760 lb). The species is sexually dimorphic, as adult females are much smaller. The polar bear is white- or yellowish-furred with black skin and a thick layer of fat."
                     },
                     new Animal {
                         Id = 22,
@@ -221,7 +221,7 @@ namespace AnimalApi.Data
                         Species = "Bird",
                         Environment = ["Arctic", "Grasslands"],
                         FoodPreference = "Carnivore",
-                        Description = "The snowy owl (Bubo scandiacus), also known as the polar owl, the white owl and the Arctic owl, is a large, white owl of the true owl family. Snowy owls are native to the Arctic regions of both North America and the Palearctic, breeding mostly on the tundra. It has a number of unique adaptations to its habitat and lifestyle, which are quite distinct from other extant owls. One of the largest species of owl, it is the only owl with mainly white plumage. Males tend to be a purer white overall while females tend to have more extensive flecks of dark brown. Juvenile male snowy owls have dark markings that may appear similar to females until maturity, at which point they typically turn whiter. The composition of brown markings about the wing, although not foolproof, is the most reliable technique to age and sex individual snowy owls."
+                        Description = "The snowy owl (Bubo scandiacus), also known as the polar owl, the white owl and the Arctic owl, is a large, white owl of the true owl family. Snowy owls are native to the Arctic regions of both North America and the Palearctic, breeding mostly on the tundra. It has a number of unique adaptations to its habitat and lifestyle, which are quite distinct from other extant owls. One of the largest species of owl, it is the only owl with mainly white plumage."
                     },
                     new Animal {
                         Id = 24,
@@ -248,7 +248,7 @@ namespace AnimalApi.Data
                         Species = "Mammal",
                         Environment = ["Arctic", "Ocean"],
                         FoodPreference = "Carnivore",
-                        Description = "The leopard seal (Hydrurga leptonyx), also referred to as the sea leopard, is the second largest species of seal in the Antarctic (after the southern elephant seal). Its only natural predator is the orca. It feeds on a wide range of prey including cephalopods, other pinnipeds, krill, fish, and birds, particularly penguins. It is the only species in the genus Hydrurga. Its closest relatives are the Ross seal, the crabeater seal and the Weddell seal, which together are known as the tribe of Lobodontini seals. The name hydrurga means water worker and leptonyx is the Greek for thin-clawed."
+                        Description = "The leopard seal (Hydrurga leptonyx), also referred to as the sea leopard, is the second largest species of seal in the Antarctic (after the southern elephant seal). Its only natural predator is the orca. It feeds on a wide range of prey including cephalopods, other pinnipeds, krill, fish, and birds, particularly penguins. It is the only species in the genus Hydrurga. Its closest relatives are the Ross seal, the crabeater seal and the Weddell seal, which together are known as the tribe of Lobodontini seals."
                     },
                     new Animal {
                         Id = 27,
@@ -257,7 +257,7 @@ namespace AnimalApi.Data
                         Species = "Mammal",
                         Environment = ["Arctic", "Mountain", "Tundra"],
                         FoodPreference = "Carnivore",
-                        Description = "The snow leopard (Panthera uncia) is a species of large cat in the genus Panthera of the family Felidae. The species is native to the mountain ranges of Central and South Asia. It is listed as Vulnerable on the IUCN Red List because the global population is estimated to number fewer than 10,000 mature individuals and is expected to decline about 10% by 2040. It is mainly threatened by poaching and habitat destruction following infrastructural developments. It inhabits alpine and subalpine zones at elevations of 3,000–4,500 m (9,800–14,800 ft), ranging from eastern Afghanistan, the Himalayas and the Tibetan Plateau to southern Siberia, Mongolia and western China. In the northern part of its range, it also lives at lower elevations."
+                        Description = "The snow leopard (Panthera uncia) is a species of large cat in the genus Panthera of the family Felidae. The species is native to the mountain ranges of Central and South Asia. It is listed as Vulnerable on the IUCN Red List because the global population is estimated to number fewer than 10,000 mature individuals and is expected to decline about 10% by 2040. It is mainly threatened by poaching and habitat destruction following infrastructural developments."
                     },
                     new Animal {
                         Id = 28,
@@ -266,7 +266,7 @@ namespace AnimalApi.Data
                         Species = "Mammal",
                         Environment = ["Arctic", "Tundra"],
                         FoodPreference = "Carnivore",
-                        Description = "The Arctic wolf (Canis lupus arctos), also known as the white wolf, polar wolf, and the Arctic grey wolf, is a subspecies of grey wolf native to the High Arctic tundra of Canada's Queen Elizabeth Islands, from Melville Island to Ellesmere Island. Unlike some populations that move between tundra and forest regions, Arctic wolves spend their entire lives north of the northern treeline. Their distribution to south is limited to the northern fringes of the Middle Arctic tundra on the southern half of Prince of Wales and Somerset Islands. It is a medium-sized subspecies, distinguished from the northwestern wolf by its smaller size, its whiter colouration, its narrower braincase, and larger carnassials. Since 1930, there has been a progressive reduction in size in Arctic wolf skulls, which is likely the result of wolf-dog hybridization."
+                        Description = "The Arctic wolf (Canis lupus arctos), also known as the white wolf, polar wolf, and the Arctic grey wolf, is a subspecies of grey wolf native to the High Arctic tundra of Canada's Queen Elizabeth Islands, from Melville Island to Ellesmere Island. Unlike some populations that move between tundra and forest regions, Arctic wolves spend their entire lives north of the northern treeline. Their distribution to south is limited to the northern fringes of the Middle Arctic tundra on the southern half of Prince of Wales and Somerset Islands."
                     },
                     new Animal {
                         Id = 29,
@@ -275,7 +275,7 @@ namespace AnimalApi.Data
                         Species = "Mammal",
                         Environment = ["Arctic", "Mountain"],
                         FoodPreference = "Herbivore",
-                        Description = "The mountain goat (Oreamnos americanus), also known as the Rocky Mountain goat, is a cloven-footed mammal that is endemic to the remote and rugged mountainous areas of western North America. A subalpine to truly alpine species, it is a sure-footed climber commonly seen on sheer rock faces, near-vertical cliffs and icy passages. Mountain goats generally avoid venturing down into lower elevations—except during seasonal food shortages or during particularly bad weather—as the extreme elevation which they inhabit is their primary defense against predators such as black and brown bears, pumas and wolves."
+                        Description = "The mountain goat (Oreamnos americanus), also known as the Rocky Mountain goat, is a cloven-footed mammal that is endemic to the remote and rugged mountainous areas of western North America. A subalpine to truly alpine species, it is a sure-footed climber commonly seen on sheer rock faces, near-vertical cliffs and icy passages."
                     },
                     new Animal {
                         Id = 30,
@@ -293,7 +293,7 @@ namespace AnimalApi.Data
                         Species = "Fish",
                         Environment = ["Ocean", "Coastal"],
                         FoodPreference = "Carnivore",
-                        Description = "The great white shark (Carcharodon carcharias), also known as the white shark, white pointer, or simply great white, is a species of large mackerel shark which can be found in the coastal surface waters of all the major oceans. It is the only known surviving species of its genus Carcharodon. The great white shark is notable for its size, with the largest preserved female specimen measuring 5.83 m (19.1 ft) in length and around 2,000 kg (4,400 lb) in weight at maturity. However, most are smaller; males measure 3.4 to 4.0 m (11 to 13 ft), and females measure 4.6 to 4.9 m (15 to 16 ft) on average. According to a 2014 study, the lifespan of great white sharks is estimated to be as long as 70 years or more, well above previous estimates, making it one of the longest lived cartilaginous fishes currently known. According to the same study, male great white sharks take 26 years to reach sexual maturity, while the females take 33 years to be ready to produce offspring. Great white sharks can swim at speeds of 25 km/h (16 mph) for short bursts and to depths of 1,200 m (3,900 ft)."
+                        Description = "The great white shark (Carcharodon carcharias), also known as the white shark, white pointer, or simply great white, is a species of large mackerel shark which can be found in the coastal surface waters of all the major oceans. It is the only known surviving species of its genus Carcharodon. The great white shark is notable for its size, with the largest preserved female specimen measuring 5.83 m (19.1 ft) in length and around 2,000 kg (4,400 lb) in weight at maturity."
                     },
                     new Animal {
                         Id = 32,
@@ -311,7 +311,7 @@ namespace AnimalApi.Data
                         Species = "Reptile",
                         Environment = ["Ocean", "Beaches"],
                         FoodPreference = "Omnivore",
-                        Description = "Sea turtles (superfamily Chelonioidea), sometimes called marine turtles, are reptiles of the order Testudines and of the suborder Cryptodira. The seven existing species of sea turtles are the flatback, green, hawksbill, leatherback, loggerhead, Kemp's ridley, and olive ridley. Six of the seven sea turtle species, all but the flatback, are present in U.S. waters, and are listed as endangered and/or threatened under the Endangered Species Act. All but the flatback turtle are listed as threatened with extinction globally on the IUCN Red List of Threatened Species. The flatback turtle is found only in the waters of Australia, Papua New Guinea, and Indonesia."
+                        Description = "Sea turtles (superfamily Chelonioidea), sometimes called marine turtles, are reptiles of the order Testudines and of the suborder Cryptodira. The seven existing species of sea turtles are the flatback, green, hawksbill, leatherback, loggerhead, Kemp's ridley, and olive ridley. Six of the seven sea turtle species, all but the flatback, are present in U.S. waters, and are listed as endangered and/or threatened under the Endangered Species Act. All but the flatback turtle are listed as threatened with extinction globally on the IUCN Red List of Threatened Species."
                     },
                     new Animal {
                         Id = 34,
@@ -320,16 +320,16 @@ namespace AnimalApi.Data
                         Species = "Fish",
                         Environment = ["Ocean", "CoralReef"],
                         FoodPreference = "Omnivore",
-                        Description = "Paracanthurus hepatus is a species of Indo-Pacific surgeonfish. A popular fish in marine aquaria, it is the only member of the genus Paracanthurus. A number of common names are attributed to the species, including regal tang, palette surgeonfish, blue tang (leading to confusion with the Atlantic species Acanthurus coeruleus), royal blue tang, hippo tang, blue hippo tang, flagtail surgeonfish, Pacific regal blue tang, and blue surgeonfish, hepatus tang, Indo-Pacific blue tang, regal blue surgeonfish, wedge-tailed tang, wedgetail blue tang. It is most closely related to genus Zebrasoma, with which it forms a sister group."
+                        Description = "Paracanthurus hepatus is a species of Indo-Pacific surgeonfish. A popular fish in marine aquaria, it is the only member of the genus Paracanthurus. A number of common names are attributed to the species, including regal tang, palette surgeonfish, blue tang (leading to confusion with the Atlantic species Acanthurus coeruleus), royal blue tang, hippo tang, blue hippo tang, flagtail surgeonfish, Pacific regal blue tang, and blue surgeonfish, hepatus tang, Indo-Pacific blue tang, regal blue surgeonfish, wedge-tailed tang, wedgetail blue tang."
                     },
                     new Animal {
                         Id = 35,
                         Image = "https://images.unsplash.com/photo-1706957782008-c26bd6c10840?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        Name = "Hammerhead Shark",
+                        Name = "Hammer head Shark",
                         Species = "Piscivore",
                         Environment = ["Ocean", "Coastal"],
                         FoodPreference = "Carnivore",
-                        Description = "The hammerhead sharks are a group of sharks that form the family Sphyrnidae, named for the unusual and distinctive form of their heads, which are flattened and laterally extended into a cephalofoil (a T-shape or hammer). The shark's eyes are placed one on each end of this T-shaped structure, with their small mouths directly centered and underneath. Most hammerhead species are placed in the genus Sphyrna, while the winghead shark is placed in its own genus, Eusphyra. Many different—but not necessarily mutually exclusive—functions have been postulated for the cephalofoil, including sensory reception, manoeuvering, and prey manipulation. The cephalofoil gives the shark superior binocular vision and depth perception."
+                        Description = "The hammerhead sharks are a group of sharks that form the family Sphyrnidae, named for the unusual and distinctive form of their heads, which are flattened and laterally extended into a cephalofoil (a T-shape or hammer). The shark's eyes are placed one on each end of this T-shaped structure, with their small mouths directly centered and underneath."
                     },
                     new Animal {
                         Id = 36,
@@ -383,7 +383,7 @@ namespace AnimalApi.Data
                         Species = "Mammal",
                         Environment = ["Forest", "Arctic"],
                         FoodPreference = "Herbivore",
-                        Description = "The moose (pl.: 'moose'; used in North America) or elk (pl.: 'elk' or 'elks'; used in Eurasia) (Alces alces) is the world's tallest, largest and heaviest extant species of deer and the only species in the genus Alces. It is also the tallest, and the second-largest, land animal in North America, falling short only of the American bison in body mass. Most adult male moose have broad, palmate (open-hand shaped) antlers; other members of the deer family have pointed antlers with a dendritic (twig-like) configuration. Moose inhabit the circumpolar boreal forests or temperate broadleaf and mixed forests of the Northern Hemisphere, thriving in cooler, temperate areas as well as subarctic climates."
+                        Description = "The moose (pl.: 'moose'; used in North America) or elk (pl.: 'elk' or 'elks'; used in Eurasia) (Alces alces) is the world's tallest, largest and heaviest extant species of deer and the only species in the genus Alces. It is also the tallest, and the second-largest, land animal in North America, falling short only of the American bison in body mass."
                     },
                     new Animal {
                         Id = 42,
@@ -401,7 +401,7 @@ namespace AnimalApi.Data
                         Species = "Mammal",
                         Environment = ["Forest", "Mountain", "Caves"],
                         FoodPreference = "Omnivore",
-                        Description = "The brown bear (Ursus arctos) is a large bear native to Eurasia and North America. Of the land carnivorans, it is rivaled in size only by its closest relative, the polar bear, which is much less variable in size and slightly bigger on average. The brown bear is a sexually dimorphic species, as adult males are larger and more compactly built than females. The fur ranges in color from cream to reddish to dark brown. It has evolved large hump muscles, unique among bears, and paws up to 21 cm (8.3 in) wide and 36 cm (14 in) long, to effectively dig through dirt. Its teeth are similar to those of other bears and reflect its dietary plasticity."
+                        Description = "The brown bear (Ursus arctos) is a large bear native to Eurasia and North America. Of the land carnivorans, it is rivaled in size only by its closest relative, the polar bear, which is much less variable in size and slightly bigger on average. The brown bear is a sexually dimorphic species, as adult males are larger and more compactly built than females."
                     },
                     new Animal {
                         Id = 44,
@@ -419,12 +419,12 @@ namespace AnimalApi.Data
                         Species = "Mammal",
                         Environment = ["Forest", "Grasslands", "Wetlands", "Steppes"],
                         FoodPreference = "Herbivore",
-                        Description = "The wild boar (Sus scrofa), also known as the wild swine, common wild pig, Eurasian wild pig, or simply wild pig, is a suid native to much of Eurasia and North Africa, and has been introduced to the Americas and Oceania. The species is now one of the widest-ranging mammals in the world, as well as the most widespread suiform. It has been assessed as least concern on the IUCN Red List due to its wide range, high numbers, and adaptability to a diversity of habitats. It has become an invasive species in part of its introduced range. Wild boars probably originated in Southeast Asia during the Early Pleistocene and outcompeted other suid species as they spread throughout the Old World."
+                        Description = "The wild boar (Sus scrofa), also known as the wild swine, common wild pig, Eurasian wild pig, or simply wild pig, is a suid native to much of Eurasia and North Africa, and has been introduced to the Americas and Oceania. The species is now one of the widest-ranging mammals in the world, as well as the most widespread suiform."
                     },
                     new Animal {
                         Id = 46,
                         Image = "https://images.unsplash.com/photo-1444465986331-f9f14553c73c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        Name = "Woodpecker",
+                        Name = "Wood pecker",
                         Species = "Bird",
                         Environment = ["Forest", "Savanna",],
                         FoodPreference = "Insectivore",
@@ -437,7 +437,7 @@ namespace AnimalApi.Data
                         Species = "Mammal",
                         Environment = ["Forest", "Tundra", "Grasslands"],
                         FoodPreference = "Carnivore",
-                        Description = "The wolf (Canis lupus; pl.: wolves), also known as the grey wolf or gray wolf, is a canine native to Eurasia and North America. More than thirty subspecies of Canis lupus have been recognized, including the dog and dingo, though grey wolves, as popularly understood, only comprise naturally-occurring wild subspecies. The wolf is the largest wild extant member of the family Canidae, and is further distinguished from other Canis species by its less pointed ears and muzzle, as well as a shorter torso and a longer tail. The wolf is nonetheless related closely enough to smaller Canis species, such as the coyote and the golden jackal, to produce fertile hybrids with them. The wolf's fur is usually mottled white, brown, grey, and black, although subspecies in the arctic region may be nearly all white."
+                        Description = "The wolf (Canis lupus; pl.: wolves), also known as the grey wolf or gray wolf, is a canine native to Eurasia and North America. More than thirty subspecies of Canis lupus have been recognized, including the dog and dingo, though grey wolves, as popularly understood, only comprise naturally-occurring wild subspecies."
                     },
                     new Animal {
                         Id = 48,
@@ -446,7 +446,7 @@ namespace AnimalApi.Data
                         Species = "Reptile",
                         Environment = ["Forest", "Wetlands", "Swamps"],
                         FoodPreference = "Omnivore",
-                        Description = "Vipers are snakes in the family Viperidae, found in most parts of the world, except for Antarctica, Australia, Hawaii, Madagascar, New Zealand, Ireland, and various other isolated islands. They are venomous and have long (relative to non-vipers), hinged fangs that permit deep penetration and injection of their venom. Three subfamilies are currently recognized. They are also known as viperids. The name viper is derived from the Latin word vipera, -ae, also meaning viper, possibly from vivus (living) and parere (to beget), referring to the trait viviparity (giving live birth) common in vipers like most of the species of Boidae."
+                        Description = "Vipers are snakes in the family Viperidae, found in most parts of the world, except for Antarctica, Australia, Hawaii, Madagascar, New Zealand, Ireland, and various other isolated islands. They are venomous and have long (relative to non-vipers), hinged fangs that permit deep penetration and injection of their venom."
                     },
                     new Animal {
                         Id = 49,
@@ -464,7 +464,7 @@ namespace AnimalApi.Data
                         Species = "Mammal",
                         Environment = ["Forest", "Mountain"],
                         FoodPreference = "Carnivore",
-                        Description = "A lynx links pl.: lynx or lynxes) is any of the four extant species (the Canada lynx, Iberian lynx, Eurasian lynx and the bobcat) within the medium-sized wild cat genus Lynx. The name originated in Middle English via Latin from the Greek word lynx (λύγξ), derived from the Indo-European root *leuk- ('light', 'brightness'), in reference to the luminescence of its reflective eyes."
+                        Description = "A lynx (links pl: lynx or lynxes) is any of the four extant species (the Canada lynx, Iberian lynx, Eurasian lynx and the bobcat) within the medium-sized wild cat genus Lynx. The name originated in Middle English via Latin from the Greek word lynx, derived from the Indo-European root leuk ('light', 'brightness'), in reference to the luminescence of its reflective eyes."
                     },
                     new Animal {
                         Id = 51,
@@ -487,7 +487,7 @@ namespace AnimalApi.Data
                     new Animal {
                         Id = 53,
                         Image = "https://images.unsplash.com/photo-1702872769303-54d80e668424?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        Name = "Butterflyfish",
+                        Name = "Butterfly fish",
                         Species = "Fish",
                         Environment = ["CoralReef", "Ocean", "Oceanic"],
                         FoodPreference = "Piscivore",
@@ -536,7 +536,7 @@ namespace AnimalApi.Data
                         Species = "Fish",
                         Environment = ["CoralReef", "Ocean", "RockyReefs"],
                         FoodPreference = "Herbivore",
-                        Description = "It is found along the southern and western coasts of Australia. The name is derived from their appearance, with long leaf-like protrusions coming from all over the body. These protrusions are not used for propulsion; they serve only as camouflage. The leafy seadragon propels itself utilising a pair of pectoral fins on the sides of its neck and a dorsal fin on its back closer to the tail end. These small fins are almost completely transparent and difficult to see as they undulate minutely to move the creature sedately through the water, completing the illusion of floating seaweed."
+                        Description = "It is found along the southern and western coasts of Australia. The name is derived from their appearance, with long leaf-like protrusions coming from all over the body. These protrusions are not used for propulsion; they serve only as camouflage."
                     },
                     new Animal {
                         Id = 59,

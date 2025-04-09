@@ -10,6 +10,14 @@
     --env-lightblue: #1e5b6e;
     --env-gray: #444444;
     --env-brown: #4d250f;
+    --species-mammal: #694730;
+    --species-bird: #613D40;
+    --species-reptile: #344B26;
+    --species-fish: #2F4E6F;
+    --diet-carnivore: #842A2A;
+    --diet-herbivore: #155B15;
+    --diet-omnivore: #44421D;
+    --diet-piscivore: #2D4D58;
     --searchbar-background: #FFECBD; /*Undecided background color*/
     --text-color-black: #0a0a0a;
     --text-color-white: #ededed;
