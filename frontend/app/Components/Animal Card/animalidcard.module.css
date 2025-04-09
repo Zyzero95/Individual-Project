@@ -13,7 +13,8 @@
     .idFig {
         position: relative;
         height: 100%;
-        border-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
         overflow: hidden;
         grid-row: span 2;
 
@@ -50,4 +51,34 @@
         }
     }
     
+}
+
+@media only screen and (max-width: 900px){
+    .idWrapper {
+        height: 60vh;
+
+        .idFig {
+            grid-row: 1;
+        }
+
+        .idDescWrapper {
+            grid-column: span 2;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .idWrapper {
+        height: 90vh;
+        grid-template-rows: 2fr 1fr 1fr;
+        grid-template-columns: 1fr;
+
+        .idFig {
+            grid-row: 1;
+        }
+
+        .idInfoWrapper {
+            grid-row: 2;
+        }
+    }
 }

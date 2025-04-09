@@ -25,8 +25,8 @@ export default function AnimalIdCard({ data }: AnimalData) {
           <section className={anicardStyle.anicardEnvSection}>
             {data?.environment.map((env) => <p key={env} className={`${anicardStyle.anicardEnv}${env}`}>{env == "CoralReef" ? "Coral Reef" : env == "DeepOcean" ? "Deep Ocean" : env == "RockyReefs" ? "Rocky Reefs": env}</p>)}
           </section>
-          <p>{data?.species}</p>
-          <p>{data?.foodPreference}</p>
+          <p className="idSpecies">{data?.species}</p>
+          <p className="idFoodPref">{data?.foodPreference}</p>
         </section>
         <section className={styles.idDescWrapper}>
             <h3 className={styles.idDescHeading}>Description: </h3>
