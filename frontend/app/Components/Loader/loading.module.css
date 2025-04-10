@@ -1,6 +1,39 @@
-.loader {
+
+.loaderWrapper {
     min-height: 80vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+        .loadingFig {
+            display: inline-block;
+            box-sizing: border-box;
+            animation: scale 4s linear alternate infinite;
+            .loadingImg {
+                animation: rotate 4s linear infinite;
+            }
+        }
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
