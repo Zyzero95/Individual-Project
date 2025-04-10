@@ -5,7 +5,7 @@ import styles from "./loading.module.css";
 
 export default function Loading() {
   return (
-    <main>
+    <main className={styles.main}>
       <section className={styles.loaderWrapper}>
         <figure className={styles.loadingFig}>
           <Image 
