@@ -2,7 +2,7 @@ import Image from "next/image";
 import turtleSpinner from "../../../public/turtle-spinner.svg";
 import styles from "./loading.module.css";
 
-
+// Loading spinner Component for when data hasn't been fetched completely.
 export default function Loading() {
   return (
     <main className={styles.main}>

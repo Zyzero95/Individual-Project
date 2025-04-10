@@ -1,3 +1,4 @@
+/* Loading Spinner Styling */
 .main {
     background-color: var(--main-background);
 }
@@ -19,6 +20,7 @@
         }
 }
 
+/* Animations for img during Suspense. */
 @keyframes scale {
     0% {
         transform: scale(1);
