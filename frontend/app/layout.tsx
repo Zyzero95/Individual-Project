@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "./Components/Header/header";
 import Footer from "./Components/Footer/footer";
 import HeroSection from "./Components/Hero Section/herosection";
+import { Suspense } from "react";
+import Loading from "./Components/Loader/loading";
 
 
 
@@ -27,7 +29,9 @@ export default function RootLayout({
       <body className={`${roboto.variable}`}>
         <Header/>
         <HeroSection/>
-        {children}
+        <Suspense fallback={<Loading/>}>
+          {children}
+        </Suspense>
         <Footer/>
       </body>
     </html>

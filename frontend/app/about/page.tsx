@@ -1,5 +1,6 @@
 import styles from "./page.module.css"
 
+// About Page. Very simple page, will add real bread text during next sprint.
 export default function page() {
   return (
     <main className={styles.about}>
