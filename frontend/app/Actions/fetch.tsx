@@ -11,7 +11,9 @@ export default async function fetchAllAnimals(): Promise<AnimalInterface[] | nul
     }
 
     const json = await response.json();
+    
     return json;
+    
   }
   catch(error: unknown) {
     if(error instanceof Error){
