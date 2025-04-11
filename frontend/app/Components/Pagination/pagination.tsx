@@ -3,6 +3,7 @@
 import { useRouter, useSearchParams } from "next/navigation"
 import { FC } from "react";
 import styles from "./pagination.module.css"
+import { ArrowLeft, ArrowRight } from "lucide-react";
 
 interface PaginationProps {
     hasNextPage: boolean,
@@ -22,9 +23,9 @@ const Pagination: FC<PaginationProps> = ({
     return (
         <section className={styles.paginationWrapper}>
             <section className={styles.paginationContainer}>
-                <button className={styles.paginationButton} disabled={!hasPrevPage} onClick={() =>router.push(`/?page=${Number(page) - 1}&per_page=${perPage}`)}>Prev page</button>
+                <button className={styles.paginationButton} disabled={!hasPrevPage} onClick={() =>router.push(`/?page=${Number(page) - 1}&per_page=${perPage}`)}><ArrowLeft/></button>
                 <p className={styles.paginationParagraph}>{page} / {Math.ceil(60 / Number(perPage))}</p>
-                <button className={styles.paginationButton} disabled={!hasNextPage} onClick={() => router.push(`/?page=${Number(page) + 1}&per_page=${perPage}`)}>Next page</button>
+                <button className={styles.paginationButton} disabled={!hasNextPage} onClick={() => router.push(`/?page=${Number(page) + 1}&per_page=${perPage}`)}><ArrowRight/></button>
             </section>
         </section>
     )
