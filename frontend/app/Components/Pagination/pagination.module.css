@@ -27,7 +27,6 @@
         }
     
         .paginationButton:hover:enabled {
-            font-size: 1.27rem;
             cursor: pointer;
         }
 
@@ -38,6 +37,7 @@
         .paginationParagraph {
             margin-left: 1rem;
             margin-right: 1rem;
+            margin-bottom: 0.3rem;
         }
     }
 }
