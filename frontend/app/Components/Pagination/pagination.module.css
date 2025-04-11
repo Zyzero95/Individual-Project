@@ -1,3 +1,45 @@
 .paginationWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+
+    .paginationContainer {
+        display: flex;
+        align-items: center;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        .paginationButton {
+            margin-right: 1rem;
+            margin-left: 1rem;
+            padding: 0.25rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+            font-weight: 600;
+            font-size: 1.25rem;
+            transition: all 0.3s ease;
+            background-color: transparent;
+            border: none;
+            color: var(--text-color-white);
+        }
+    
+        .paginationButton:hover:enabled {
+            font-size: 1.27rem;
+            cursor: pointer;
+        }
+
+        .paginationButton:disabled {
+            opacity: 0.4;
+        }
+    
+        .paginationParagraph {
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+    }
+    
+
     
 }

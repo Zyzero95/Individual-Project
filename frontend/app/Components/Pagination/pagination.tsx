@@ -2,6 +2,7 @@
 
 import { useRouter, useSearchParams } from "next/navigation"
 import { FC } from "react";
+import styles from "./pagination.module.css"
 
 interface PaginationProps {
     hasNextPage: boolean,
@@ -19,10 +20,12 @@ const Pagination: FC<PaginationProps> = ({
     const perPage = searchParams.get('per_page') ?? '6';
 
     return (
-        <section className="paginationWrapper">
-            <button disabled={!hasPrevPage} onClick={() =>router.push(`/?page=${Number(page) - 1}&per_page=${perPage}`)}>prev page</button>
-            {page} / {Math.ceil(60 / Number(perPage))}
-            <button disabled={!hasNextPage} onClick={() => router.push(`/?page=${Number(page) + 1}&per_page=${perPage}`)}>next page</button>
+        <section className={styles.paginationWrapper}>
+            <section className={styles.paginationContainer}>
+                <button className={styles.paginationButton} disabled={!hasPrevPage} onClick={() =>router.push(`/?page=${Number(page) - 1}&per_page=${perPage}`)}>Prev page</button>
+                <p className={styles.paginationParagraph}>{page} / {Math.ceil(60 / Number(perPage))}</p>
+                <button className={styles.paginationButton} disabled={!hasNextPage} onClick={() => router.push(`/?page=${Number(page) + 1}&per_page=${perPage}`)}>Next page</button>
+            </section>
         </section>
     )
 }
