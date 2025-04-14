@@ -3,6 +3,7 @@
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
 import { useDebouncedCallback } from "use-debounce";
 
+// Searchbar using URL searchParams to send data to Query Component.
 export default function Search() {
     const searchParams = useSearchParams();
     const pathName = usePathname();

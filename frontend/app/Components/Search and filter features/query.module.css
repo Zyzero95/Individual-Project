@@ -9,4 +9,11 @@
         display: grid;
         align-items: center;
     }
+
+    .queryPagination {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
