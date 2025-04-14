@@ -1,0 +1,12 @@
+.queryWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .queryP {
+        height: 50vh;
+        font-size: 2rem;
+        display: grid;
+        align-items: center;
+    }
+}
