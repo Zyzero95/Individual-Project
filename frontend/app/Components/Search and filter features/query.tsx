@@ -4,7 +4,7 @@ import styles from "./query.module.css"
 import Pagination from "../Pagination/pagination";
 import fetchAllAnimals from "@/app/Actions/fetch";
 
-// Handle query and filter searchParams to render a sorted list.
+// Handle query and filter searchParams to render a sorted list. Sends sorted list to Pagination to render proper pagination when the list changes or is default.
 export default async function Query({ searchParams}: {searchParams: Promise<{ [key: string]: string | undefined; query: string | undefined; filter: string | undefined}>}) {
     const query = (await searchParams)?.query || '';
     const filter = (await searchParams)?.filter || '';

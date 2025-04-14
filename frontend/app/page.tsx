@@ -9,6 +9,7 @@ export default async function Home({ searchParams }: { searchParams: Promise<{qu
   return (
     <main className={styles.main}>
       <form>
+        <h2>Search and Filter Section</h2>
         <Search/>
       </form>
       <Query searchParams={searchParams}/>

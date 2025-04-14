@@ -1,7 +1,8 @@
 'use client'
 
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
-import { useDebouncedCallback } from "use-debounce";
+import { useDebouncedCallback } from "use-debounce"
+import styles from "./search.module.css"
 
 // Searchbar using URL searchParams to send data to Query Component.
 export default function Search() {
@@ -20,9 +21,9 @@ export default function Search() {
         replace(`${pathName}?${params.toString()}`);
     }, 300);
   return (
-    <section>
-        <label htmlFor="searchbar">Search: </label>
-        <input type="text" id="searchbar" placeholder="Search..." onChange={(e) => {handleSearch(e.target.value)}}></input>
+    <section className={styles.searchWrapper}>
+        <label className={styles.searchLabel} htmlFor="searchbar">Search: </label>
+        <input className={styles.searchInput} type="text" id="searchbar" placeholder="Search..." onChange={(e) => {handleSearch(e.target.value)}}></input>
     </section>
   )
 }
