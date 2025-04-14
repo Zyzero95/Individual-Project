@@ -1,7 +1,7 @@
 import fetchAllAnimals from "./Actions/fetch";
 import AnimalCard from "./Components/Animal Card/animalcard";
 import Pagination from "./Components/Pagination/pagination";
-import styles from "./page.module.css"
+import styles from "./page.module.css";
 
 // Call fetch function to get all Animal Data, Uses searchParams and slicing data array to create pagination functionality. Sets conditions for buttons to become disabled for Pagination Component.
 export default async function Home({ searchParams }: { searchParams: Promise<{ [key: string]: string | undefined }>}) {
@@ -25,4 +25,3 @@ export default async function Home({ searchParams }: { searchParams: Promise<{ [
     </main>
   );
 }
-
