@@ -7,15 +7,27 @@
   justify-content: space-evenly;
   align-items: center;
 
-  form {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    height: 10vh;
+  .mainForm {
+    padding: 1rem;
     margin-top: 1rem;
     border: 1px solid transparent;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: grid;
+
+    .formHeading {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 356px){
+  .main {
+    .mainForm {
+      .formHeading {
+        font-size: 1.5rem;
+      }
+    }
   }
 }
 

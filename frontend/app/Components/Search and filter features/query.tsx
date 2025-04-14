@@ -19,8 +19,46 @@ export default async function Query({ searchParams}: {searchParams: Promise<{ [k
         throw new Error("Fetch failed. No animals present.");
       }
       
+    let sortyByFilter: AnimalInterface[] = [];
 
-    const sortyByFilter: AnimalInterface[] = [];
+    if(filter !== "default" && sortyByFilter.length === 0){
+        sortyByFilter = data;
+        sortyByFilter.sort((a, b) => {
+            if(filter === "name"){
+                const nameA = a.name.toLowerCase();
+                const nameB = b.name.toLowerCase();
+                if(nameA < nameB) {
+                    return -1;
+                }
+                else if(nameA > nameB){
+                    return 1;
+                }
+                return 0;
+            }
+            else if(filter === "species"){
+                const speciesA = a.species.toLowerCase();
+                const speciesB = b.species.toLowerCase();
+                if(speciesA < speciesB){
+                    return -1;
+                }
+                else if(speciesA > speciesB){
+                    return 1;
+                }
+                return 0;
+            }
+            else if(filter === "diet"){
+                const dietA = a.foodPreference.toLowerCase();
+                const dietB = b.foodPreference.toLowerCase();
+                if(dietA < dietB){
+                    return -1;
+                }
+                else if(dietA > dietB){
+                    return 1;
+                }
+                return 0;
+            }})} else {
+                sortyByFilter = [];
+                }
 
     const searchQuery = Array.isArray(data) ? 
     (sortyByFilter.length === 0 ?
@@ -38,7 +76,7 @@ export default async function Query({ searchParams}: {searchParams: Promise<{ [k
     <section className={styles.queryWrapper}> 
         {searchQuery.length === 0 ? <h2 className={styles.queryP}>No animals matched the search term.</h2> : entries.map((item) => <AnimalCard key={item.id} data={item}/>)}
         <section className={styles.queryPagination}>
-            <Pagination hasNextPage={end < data.length} hasPrevPage={start > 0} query={query} data={searchQuery}/>
+            <Pagination hasNextPage={end < data.length} hasPrevPage={start > 0} query={query} filter={filter} data={searchQuery}/>
         </section>
     </section>
   )
