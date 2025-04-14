@@ -3,5 +3,19 @@
   background-color: var(--main-background);
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
+
+  form {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 10vh;
+    margin-top: 1rem;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: grid;
+  }
 }
+
