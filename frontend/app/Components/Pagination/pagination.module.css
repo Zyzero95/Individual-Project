@@ -1,6 +1,6 @@
 /* Pagination Component Styling */
 .paginationWrapper {
-    width: 100%;
+    width: 50vw;
     display: flex;
     justify-content: center;
     margin: 1rem;
@@ -37,5 +37,38 @@
             margin-right: 1rem;
             margin-bottom: 0.3rem;
         }
+    }
+}
+
+/* Media Queries for better responsivess. */
+@media only screen and (max-width: 791px){
+    .paginationWrapper {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    .paginationWrapper {
+        
+        .paginationContainer {
+            display: grid;
+            grid-template-columns: repeat(4, auto);
+            grid-template-rows: repeat(2, auto);
+
+            .paginationParagraph {
+                grid-row: 1;
+                grid-column: span 4;
+                justify-self: center;
+                margin-bottom: 0;
+                margin-top: 0.3rem;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 348px){
+    .paginationWrapper {
+        width: 30vw;
     }
 }
