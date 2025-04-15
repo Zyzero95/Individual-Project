@@ -16,7 +16,7 @@ export default function Header() {
     }
     // Mobile view. Changing CSS class depending on state. 
   return (
-    <header className={styles.headerSection}>
+    <header id="headerSection" className={styles.headerSection}>
         <h1 className={styles.headerTitle}>Animal Facts</h1>
         <section className={styles.headerMobileMenu}>
             <Menu className={menuToggle === true ? styles.lucideMenuIconToggled : styles.lucideMenuIcon} onClick={toggleMenu} size={48}/>
