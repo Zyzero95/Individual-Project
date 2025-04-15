@@ -8,6 +8,7 @@
   align-items: center;
 
   .mainForm {
+    background-color: var(--header-background);
     padding: 1rem;
     margin-top: 1rem;
     border: 1px solid transparent;

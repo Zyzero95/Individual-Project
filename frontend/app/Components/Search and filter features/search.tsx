@@ -23,7 +23,7 @@ export default function Search() {
   return (
     <section className={styles.searchWrapper}>
         <label className={styles.searchLabel} htmlFor="searchbar">Search: </label>
-        <input className={styles.searchInput} type="text" id="searchbar" placeholder="Search..." onChange={(e) => {handleSearch(e.target.value)}}></input>
+        <input className={styles.searchInput} type="text" id="searchbar" placeholder="Search..." defaultValue={searchParams.get('query')?.toString()} onChange={(e) => {handleSearch(e.target.value)}}></input>
     </section>
   )
 }
