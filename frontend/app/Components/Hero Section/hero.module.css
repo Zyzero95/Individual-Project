@@ -23,12 +23,12 @@
         background-image: url("Hero-Images/heroImage-Savanna.jpg");
     }
     50% {
-        background-image: url("Hero-Images/heroImage-Arctic.jpg");
+        background-image: url("Hero-Images/heroImage-Rainforest.jpg");
     }
     75% {
-        background-image: url("./Hero-Images/heroImage-Ocean.jpg");
+        background-image: url("./Hero-Images/heroImage-Swamp.jpg");
     }
     100% {
-        background-image: url("Hero-Images/heroImage-CoralReef.jpg");
+        background-image: url("Hero-Images/heroImage-Jungle.jpg");
     }
 }
