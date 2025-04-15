@@ -299,16 +299,16 @@ namespace AnimalApi.Data
                         Id = 32,
                         Image = "https://images.unsplash.com/photo-1698472505070-6d3b90afb530?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Sperm Whale",
-                        Species = "Piscivore",
+                        Species = "Mammal",
                         Environment = ["Ocean", "DeepOcean", "Arctic"],
-                        FoodPreference = "Herbivore",
+                        FoodPreference = "Piscivore",
                         Description = "The sperm whale or cachalot (Physeter macrocephalus) is the largest of the toothed whales and the largest toothed predator. It is the only living member of the genus Physeter and one of three extant species in the sperm whale family, along with the pygmy sperm whale and dwarf sperm whale of the genus Kogia."
                     },
                     new Animal {
                         Id = 33,
                         Image = "https://images.unsplash.com/photo-1496196614460-48988a57fccf?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Sea Turtle",
-                        Species = "Reptile",
+                        Species = "Fish",
                         Environment = ["Ocean", "Beaches"],
                         FoodPreference = "Omnivore",
                         Description = "Sea turtles (superfamily Chelonioidea), sometimes called marine turtles, are reptiles of the order Testudines and of the suborder Cryptodira. The seven existing species of sea turtles are the flatback, green, hawksbill, leatherback, loggerhead, Kemp's ridley, and olive ridley. Six of the seven sea turtle species, all but the flatback, are present in U.S. waters, and are listed as endangered and/or threatened under the Endangered Species Act. All but the flatback turtle are listed as threatened with extinction globally on the IUCN Red List of Threatened Species."
@@ -326,7 +326,7 @@ namespace AnimalApi.Data
                         Id = 35,
                         Image = "https://images.unsplash.com/photo-1706957782008-c26bd6c10840?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Hammer head Shark",
-                        Species = "Piscivore",
+                        Species = "Fish",
                         Environment = ["Ocean", "Coastal"],
                         FoodPreference = "Carnivore",
                         Description = "The hammerhead sharks are a group of sharks that form the family Sphyrnidae, named for the unusual and distinctive form of their heads, which are flattened and laterally extended into a cephalofoil (a T-shape or hammer). The shark's eyes are placed one on each end of this T-shaped structure, with their small mouths directly centered and underneath."
@@ -335,9 +335,9 @@ namespace AnimalApi.Data
                         Id = 36,
                         Image = "https://images.unsplash.com/photo-1584267814800-c9de7a2cfeac?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         Name = "Anglerfish",
-                        Species = "Piscivore",
+                        Species = "Fish",
                         Environment = ["Ocean", "DeepOcean", "Atlantic", "Arctic"],
-                        FoodPreference = "Herbivore",
+                        FoodPreference = "Piscivore",
                         Description = "The anglerfish are ray-finned fish in the order Lophiiformes. Both the order's common and scientific name comes from the characteristic mode of predation, in which a modified dorsal fin ray acts as a lure for prey (akin to a human angler, and likened to a crest or lophos). The modified fin ray, with the very tip being the esca and the length of the structure the illicium, is adapted to attract specific prey items across the families of anglerfish by using different luring methods."
                     },
                     new Animal {

@@ -1,0 +1,14 @@
+.filterWrapper {
+    display: flex;
+    flex-direction: column;
+
+    .filterLabel {
+        font-size: 1.2rem;
+    }
+
+    .filterSelect {
+        border: 1px solid transparent;
+        border-radius: 5px;
+        height: 1.5rem;
+    }
+}
