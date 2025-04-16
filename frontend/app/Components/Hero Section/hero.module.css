@@ -7,28 +7,27 @@
 
     .heroFig {
         width: 100%;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        animation: slideshow 25s ease-in-out alternate infinite;
+        height: 100%;
+        position: relative;
+        background-color: var(--main-background);
+        }
+
+    .img {
+        object-fit: cover;
+    }
+
+    .slideShowWrapper {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+        z-index: 0;
+    }
+
+    .slideShowWrapper.active {
+        opacity: 1;
+        z-index: 1;
     }
 }
 
-/* Slideshow Animation */
-@keyframes slideshow {
-    0% {
-        background-image: url("Hero-Images/heroImage-Forest.jpg");
-    }
-    25% {
-        background-image: url("Hero-Images/heroImage-Savanna.jpg");
-    }
-    50% {
-        background-image: url("Hero-Images/heroImage-Rainforest.jpg");
-    }
-    75% {
-        background-image: url("./Hero-Images/heroImage-Swamp.jpg");
-    }
-    100% {
-        background-image: url("Hero-Images/heroImage-Jungle.jpg");
-    }
-}
