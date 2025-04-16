@@ -1,21 +1,19 @@
 /* CSS Styling for Animal Card Component */
 .anicardWrapper {
-    width: 35vw;
-    height: 35vh;
+    width: 40vw;
+    height: 40vh;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     background-color: var(--card-background);
-    border: 2px solid black;
     overflow: hidden;
     border-radius: 20px;
     justify-content: space-between;
-    align-items: center;
     margin: 1rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
     .anicardFigure {
         width: 100%;
-        height: 60%;
+        height: 70%;
         position: relative;
 
         img {
@@ -23,14 +21,22 @@
         }
     }
 
-    .anicardName {
-        font-size: 2rem;
+    .anicardNameSection {
+        margin-left: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        .anicardName {
+            font-size: 1.5rem;
+        }
     }
 
+    
+
     .anicardEnvSection {
-        width: clamp(25vw, 10vw, 30vw);
         display: flex;
-        justify-content: space-evenly;
+        flex-wrap: wrap;
+        justify-content: end;
+        align-items: center;
 
         .anicardEnv {
             border-radius: 1px;
@@ -62,10 +68,9 @@
         .anicardEnvCoralReef,
         .anicardEnvRockyReefs,
         .anicardEnvDeepOcean {
-            border: 1px solid transparent;
-            padding: 0.3rem;
-            border-radius: 12px;
-            font-weight: 600;
+            padding: 0.2rem;
+            border-radius: 11px;
+            margin-right: 0.5rem;
         }
 
         .anicardEnvRainforest,
@@ -114,6 +119,7 @@
     .anicardButton {
         width: 100%;
         height: 2.5rem;
+        margin-top: auto;
         border: none;
         background-color: var(--card-button);
         color: var(--text-color-white);
@@ -129,42 +135,35 @@
     }
 }
 /* Media Queries for better responsiveness */
-@media only screen and (max-width: 1459px) {
-    .anicardWrapper {
-        width: 40vw;
-
-        .anicardEnvSection {
-            width: clamp(25vw, 10vw, 35vw);
-        }
-    }
-}
-
-@media only screen and (max-width: 1168px) {
+@media only screen and (max-width: 1180px) {
     .anicardWrapper {
         width: 55vw;
-
-        .anicardEnvSection {
-            width: clamp(35vw, 10vw, 45vw);
-        }
     }
 }
 
-@media only screen and (max-width: 834px) {
+@media only screen and (max-width: 879px) {
     .anicardWrapper {
         width: 60vw;
-
-        .anicardEnvSection {
-            width: clamp(60vw, 10vw, 70vw);
-        }
     }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 789px){
+    .anicardWrapper {
+        width: 70vw;
+    }
+}
+
+
+@media only screen and (max-width: 675px){
     .anicardWrapper {
         width: 80vw;
+        height: 50vh;
 
         .anicardEnvSection {
-            width: clamp(80vw, 10vw, 90vw);
+            justify-content: start;
+            margin-right: 0;
+            margin-left: 0.5rem;
+            width: 100%;
         }
     }
 }
@@ -172,9 +171,5 @@
 @media only screen and (max-width: 375px){
     .anicardWrapper {
         width: 90vw;
-
-        .anicardEnvSection {
-            width: clamp(90vw, 10vw, 100vw);
-        }
     }
 }

@@ -1,10 +1,10 @@
 /* Global variables colors for the whole project */
 :root {
-    --header-background: #353723;
-    --footer-background: #353723;
-    --main-background: #49563e;
-    --card-background: #838653;
-    --card-button: #353723;
+    --header-background: #000;
+    --footer-background: #000;
+    --main-background: #223530;
+    --card-background: #121D1A;
+    --card-button: #000;
     --env-green: #00755E;
     --env-blue: #064273;
     --env-lightblue: #1e5b6e;
@@ -18,7 +18,6 @@
     --diet-herbivore: #155B15;
     --diet-omnivore: #44421D;
     --diet-piscivore: #2D4D58;
-    --searchbar-background: #FFECBD; /*Undecided background color*/
     --text-color-black: #0a0a0a;
     --text-color-white: #ededed;
 }
