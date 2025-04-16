@@ -5,6 +5,7 @@ import Slideshow from "./slideshow"
 export default function HeroSection() {
   return (
     <section className={styles.heroSection}>
+      <h1 className={styles.heroHeading}>Animal Facts</h1>
       <Slideshow/>
     </section>
   )

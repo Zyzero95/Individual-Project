@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
+import { Lexend_Exa, Roboto } from "next/font/google";
 import "./globals.css";
 import Header from "./Components/Header/header";
 import Footer from "./Components/Footer/footer";
@@ -11,6 +11,11 @@ import Loading from "./Components/Loader/loading";
 
 const roboto = Roboto({
   variable: "--font-roboto",
+  subsets: ["latin"]
+});
+
+const lexend_exa = Lexend_Exa({
+  variable: "--font-lexend-exa",
   subsets: ["latin"]
 });
 
@@ -26,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.variable}`}>
+      <body className={`${roboto.variable} ${lexend_exa.variable}`}>
         <Header/>
         <HeroSection/>
         <Suspense fallback={<Loading/>}>

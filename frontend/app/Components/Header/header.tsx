@@ -39,19 +39,22 @@ export default function Header() {
                 <ul>
                     <li><Link href={"/"}>Home</Link></li>
                     <li><Link href={"/about"}>About</Link></li>
-                    <li><Link href={numRandom} onClick={randomNum}>Random Animal</Link></li>
+                    <li><Link href={numRandom} onClick={randomNum}>Random</Link></li>
                 </ul>
                 </nav>
             </section>
         </section>
         {/* Desktop view */}
-        <nav className={styles.headerNav}>
-            <ul>
-                <li><Link href={"/"}>Home</Link></li>
-                <li><Link href={"/about"}>About</Link></li>
-                <li><Link href={numRandom} onClick={randomNum}>Random Animal</Link></li>
-            </ul>
+        <section className={styles.headerDesktop}>
+            <nav className={styles.headerNav}>
+                <ul>
+                    <li><Link href={"/"}>Home</Link></li>
+                    <li><Link href={"/about"}>About</Link></li>
+                    <li><Link href={numRandom} onClick={randomNum}>Random</Link></li>
+                </ul>
         </nav>
+        </section>
+        
     </header>
   )
 }

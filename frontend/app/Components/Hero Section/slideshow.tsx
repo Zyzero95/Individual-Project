@@ -1,19 +1,19 @@
 'use client'
-import imgForest from "./Hero-Images/heroImage-Forest.jpg"
-import imgSavanna from "./Hero-Images/heroImage-Savanna.jpg"
-import imgRainforest from "./Hero-Images/heroImage-Rainforest.jpg"
-import imgSwamp from "./Hero-Images/heroImage-Swamp.jpg"
-import imgJungle from "./Hero-Images/heroImage-Jungle.jpg"
+import imgOne from "./Hero-Images/heroImage-1.jpg"
+import imgTwo from "./Hero-Images/heroImage-2.jpg"
+import imgThree from "./Hero-Images/heroImage-3.jpg"
+import imgFour from "./Hero-Images/heroImage-4.jpg"
+import imgFive from "./Hero-Images/heroImage-5.jpg"
 import Image from "next/image"
 import { useEffect, useState, useRef } from "react"
 import styles from "./hero.module.css"
 
 const images = [
-    imgForest,
-    imgSavanna,
-    imgRainforest,
-    imgSwamp,
-    imgJungle
+    imgOne,
+    imgTwo,
+    imgThree,
+    imgFour,
+    imgFive
 ]
 
 // Component for making a Slideshow, using State and useRef to create a timed interval for the Slideshow. Using isPaused to pause the Slideshow when hovering over image. 

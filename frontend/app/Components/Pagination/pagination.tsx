@@ -27,11 +27,11 @@ const Pagination: FC<PaginationProps> = ({
     return (
         <section className={styles.paginationWrapper}>
             <section className={styles.paginationContainer}>
-                <button className={styles.paginationButton} disabled={!hasPrevPage} onClick={() => router.push(`/?page=${1}&per_page=${perPage}${query === "" ? "": `&query=${query}`}${filter === "" ? "" : `&filter=${filter}`}`)}><ArrowLeftToLine size={32}/></button>
-                <button className={styles.paginationButton} disabled={!hasPrevPage} onClick={() =>router.push(`/?page=${Number(page) - 1}&per_page=${perPage}${query === "" ? "": `&query=${query}`}${filter === "" ? "" : `&filter=${filter}`}`)}><ArrowLeft size={32}/></button>
+                <button className={styles.paginationButton} disabled={!hasPrevPage} onClick={() => router.push(`/?page=${1}&per_page=${perPage}${query === "" ? "": `&query=${query}`}${filter === "" ? "" : `&filter=${filter}`}`)}><ArrowLeftToLine aria-label="button-first" size={32}/></button>
+                <button className={styles.paginationButton} disabled={!hasPrevPage} onClick={() =>router.push(`/?page=${Number(page) - 1}&per_page=${perPage}${query === "" ? "": `&query=${query}`}${filter === "" ? "" : `&filter=${filter}`}`)}><ArrowLeft aria-label="button-previous" size={32}/></button>
                 <p className={styles.paginationParagraph}>{page} / {Math.ceil(data.length / Number(perPage))}</p>
-                <button className={styles.paginationButton} disabled={!hasNextPage} onClick={() => router.push(`/?page=${Number(page) + 1}&per_page=${perPage}${query === "" ? "": `&query=${query}`}${filter === "" ? "" : `&filter=${filter}`}`)}><ArrowRight size={32}/></button>
-                <button className={styles.paginationButton} disabled={!hasNextPage} onClick={() => router.push(`/?page=${Math.ceil(60 / Number(perPage))}&per_page=${perPage}${query === "" ? "": `&query=${query}`}${filter === "" ? "" : `&filter=${filter}`}`)}><ArrowRightToLine size={32}/></button>
+                <button className={styles.paginationButton} disabled={!hasNextPage} onClick={() => router.push(`/?page=${Number(page) + 1}&per_page=${perPage}${query === "" ? "": `&query=${query}`}${filter === "" ? "" : `&filter=${filter}`}`)}><ArrowRight aria-label="button-next" size={32}/></button>
+                <button className={styles.paginationButton} disabled={!hasNextPage} onClick={() => router.push(`/?page=${Math.ceil(60 / Number(perPage))}&per_page=${perPage}${query === "" ? "": `&query=${query}`}${filter === "" ? "" : `&filter=${filter}`}`)}><ArrowRightToLine aria-label="button-last" size={32}/></button>
             </section>
         </section>
     )
