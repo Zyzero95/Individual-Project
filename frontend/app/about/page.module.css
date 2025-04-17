@@ -1,8 +1,9 @@
 /* About Page Styling */
 .about {
     background-color: var(--main-background);
-    text-align: center;
     display: grid;
+    width: 100vw;
+    height: 50vh;
 
     .aboutSection {
         margin: 1rem;
@@ -10,7 +11,6 @@
         border-radius: 10px;
         .aboutWrapper {
             justify-self: center;
-            width: 50%;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
@@ -21,23 +21,59 @@
             }
     
             .aboutText {
-                margin-top: 1rem;
-                margin-bottom: 1rem;
-                font-size: 1.25rem;
-                font-weight: 700;
+                justify-self: center;
+                margin: 1rem;
+                margin-left: 2rem;
+                margin-right: 2rem;
+                font-size: 1.5em;
+                font-weight: 500;
             }
         }
     }
 }
 
-/* Media Query About Page */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1080px) {
     .about {
-        height: auto;
+        height: 80vh;
         .aboutSection {
             .aboutWrapper {
-                width: 80%;
-                height: auto;
+                .aboutText {
+                    font-size: 1.25rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .about {
+        height: 90vh;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .about {
+        height: 100vh;
+        .aboutSection {
+            .aboutWrapper {
+                .aboutHeading {
+                    font-size: 2rem;
+                }
+                .aboutText {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .about {
+        .aboutSection {
+            .aboutWrapper {
+                .aboutText {
+                    font-size: 0.85rem;
+                }
             }
         }
     }

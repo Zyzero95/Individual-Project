@@ -3,6 +3,7 @@
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
 import { useDebouncedCallback } from "use-debounce"
 import styles from "./search.module.css"
+import { LucideSearch } from "lucide-react"
 
 // Searchbar using URL searchParams to send data to Query Component.
 export default function Search() {
@@ -22,8 +23,8 @@ export default function Search() {
     }, 300);
   return (
     <section className={styles.searchWrapper}>
-        <label className={styles.searchLabel} htmlFor="searchbar">Search: </label>
-        <input className={styles.searchInput} type="text" id="searchbar" placeholder="Search..." defaultValue={searchParams.get('query')?.toString()} onChange={(e) => {handleSearch(e.target.value)}}></input>
+        <input className={styles.searchInput} aria-label="Search bar" type="text" id="searchbar" placeholder="Search..." defaultValue={searchParams.get('query')?.toString()} onChange={(e) => {handleSearch(e.target.value)}}></input>
+        <LucideSearch size={20}/>
     </section>
   )
 }

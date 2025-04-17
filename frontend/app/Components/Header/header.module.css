@@ -1,13 +1,17 @@
 /* Styling for Header Component */
 .headerSection {
+    width: 100vw;
     height: 8vh;
-    background-color: var(--header-background);
+    background-color: rgba(0, 0, 0, 0.7);
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
 
     .headerTitle {
         margin-left: 1rem;
+        font-size: 1.5rem;
     }
 
     /* Mobile Styling */
@@ -21,7 +25,7 @@
 
         .lucideMenuIcon {
             position: absolute;
-            z-index: 2;
+            z-index: 4;
             display: block;
             transition: all 0.3s ease;
         }
@@ -43,7 +47,7 @@
         .lucideMenuIconCloseToggled {
             display: block;
             position: absolute;
-            z-index: 2;
+            z-index: 4;
             transition: all 0.3s ease;
         }
 
@@ -65,8 +69,8 @@
             border: 1px solid transparent;
             border-radius: 10px;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            z-index: 1;
-            background-color: var(--header-background);
+            z-index: 3;
+            background-color: rgba(0, 0, 0, 0.8);
             visibility: visible;
             opacity: 1;
             transition : visibility 0s, opacity 0.5s linear;
@@ -74,8 +78,6 @@
             .headerNavMobile {
                 height: 80%;
                 margin: 1rem;
-                background-color: var(--main-background);
-                border-radius: 10px;
                 ul {
                     height: 100%;
                     list-style: none;
@@ -95,7 +97,7 @@
                     li:hover {
                         font-size: 1.5rem;
                         cursor: pointer;
-                        border: 1px solid transparent;
+                        border: 1px solid white;
                         border-radius: 10px;
                         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
                     }
@@ -109,30 +111,33 @@
         }
     }
     /* Desktop Styling */
-    .headerNav {
-        display: block;
-        ul {
-            list-style: none;
-            display: flex;
-            justify-content: end;
-            align-items: center;
-            li {
-                margin-right: 1rem;
-                font-weight: 600;
-                font-size: 1.25rem;
-                padding: 1rem;
-                transition: all 0.3s ease;
-            }
-            li:hover {
-                font-size: 1.5rem;
-                cursor: pointer;
-                border: 1px solid transparent;
-                border-radius: 10px;
-                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            }
-            a {
-                display: block;
-                width: 100%;
+    .headerDesktop{
+        .headerNav {
+            display: grid;
+            justify-content: center;
+            ul {
+                list-style: none;
+                display: flex;
+                justify-content: end;
+                align-items: center;
+                li {
+                    margin-right: 1rem;
+                    font-weight: 600;
+                    font-size: 1.25rem;
+                    padding: 1rem;
+                    transition: all 0.3s ease;
+                }
+                li:hover {
+                    font-size: 1.5rem;
+                    cursor: pointer;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                }
+                a {
+                    display: block;
+                    width: 100%;
+                }
             }
         }
     }
@@ -141,7 +146,7 @@
 /* Media queries for better responsiveness */
 @media only screen and (max-width: 620px){
     .headerSection {
-        .headerNav {
+        .headerDesktop {
            display: none;
         }
 

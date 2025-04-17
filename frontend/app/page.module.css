@@ -3,32 +3,67 @@
   background-color: var(--main-background);
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
   justify-content: space-evenly;
-  align-items: center;
 
-  .mainForm {
-    background-color: var(--header-background);
-    padding: 1rem;
-    margin-top: 1rem;
-    border: 1px solid transparent;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    display: grid;
+  .mainTopContent {
+    display: flex;
+    width: 86%;
+    justify-content: space-between;
 
-    .formHeading {
-      font-size: 2rem;
+    .mainHeading {
+      display: grid;
+      align-self: center;
+      justify-content: center;
+    }
+  
+    .mainForm {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
     }
   }
+
+  
 }
 
-@media only screen and (max-width: 356px){
+/* Media Queries for Main Section for make it more responsive. */
+@media only screen and (max-width: 1180px){
   .main {
-    .mainForm {
-      .formHeading {
-        font-size: 1.5rem;
+
+    .mainTopContent {
+      flex-direction: column;
+      width: auto;
+
+      .mainHeading {
+        margin-top: 1rem;
+      }
+  
+      .mainForm {
+        display: grid;
+        justify-content: center;
       }
     }
   }
 }
+
+@media only screen and (max-width: 477px){
+  .main {
+    .mainTopContent {
+      .mainHeading {
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 398px){
+  .main {
+    .mainTopContent {
+      .mainHeading {
+        font-size: 1rem;
+      }
+    }
+  }
+  
+}
+
 

@@ -9,11 +9,14 @@ export default async function Home({ searchParams }: { searchParams: Promise<{qu
   // Renders feature components to main section.
   return (
     <main className={styles.main}>
-      <form className={styles.mainForm}>
-        <h2 className={styles.formHeading}>Search for an Animal!</h2>
-        <Search/>
-        <Filter/>
-      </form>
+      <section className={styles.mainTopContent}>
+        <h2 className={styles.mainHeading}>Refresh you animal knowledge!</h2>
+        <form className={styles.mainForm}>
+          <Search/>
+          <Filter/>
+        </form>
+      </section>
+      
       <Query searchParams={searchParams}/>
     </main>
   );

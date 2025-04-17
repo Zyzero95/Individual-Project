@@ -28,7 +28,7 @@
 
             li:hover {
                 cursor: pointer;
-                border: 1px solid transparent;
+                border: 1px solid white;
                 font-size: 1.5rem;
                 border-radius: 10px;
                 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -52,9 +52,16 @@
 
     .footerToTop:hover {
         cursor: pointer;
-        border: 1px solid transparent;
+        border: 1px solid white;
         font-size: 1.5rem;
         border-radius: 10px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
+
+/* Media Query for Footer to make it more responsive. */
+@media only screen and (max-width: 1024px) {
+    .footerSection {
+        height: auto;
     }
 }

@@ -23,7 +23,10 @@ export default function AnimalCard({ data }: AnimalData) {
             priority={true}
         />
       </figure>
-      <h2 className={styles.anicardName}>{data.name}</h2>
+      <section className={styles.anicardNameSection}>
+        <h2 className={styles.anicardName}>{data.name}</h2>
+        <p className={styles.anicardNameLatin}>{data.latinName}(latin)</p>
+      </section>
       <section className={styles.anicardEnvSection}>
         {data.environment.map((env) => <p key={env} className={`${styles.anicardEnv}${env}`}>{env == "CoralReef" ? "Coral Reef" : env == "DeepOcean" ? "Deep Ocean" : env == "RockyReefs" ? "Rocky Reefs": env}</p>)}
       </section>

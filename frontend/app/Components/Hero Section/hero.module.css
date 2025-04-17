@@ -4,12 +4,21 @@
     height: 50vh;
     display: flex;
     justify-content: center;
+    background-color: var(--main-background);
+
+    .heroHeading {
+        font-family: var(--font-lexend-exa);
+        position: absolute;
+        font-size: 5rem;
+        z-index: 2;
+        display: grid;
+        align-self: center;
+    }
 
     .heroFig {
         width: 100%;
         height: 100%;
         position: relative;
-        background-color: var(--main-background);
         }
 
     .img {
@@ -28,6 +37,24 @@
     .slideShowWrapper.active {
         opacity: 1;
         z-index: 1;
+    }
+}
+
+/* Media Queries for Hero Section to make it more responsive. */
+@media only screen and (max-width: 658px) {
+    .heroSection {
+        .heroHeading {
+            font-size: 4rem;
+            text-align: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 526px) {
+    .heroSection {
+        .heroHeading {
+            font-size: 3rem;
+        }
     }
 }
 
