@@ -27,12 +27,12 @@ export default function Filter() {
   return (
     <section className={styles.filterWrapper}>
         <select className={styles.filterSelect} aria-label="Filter Dropdown menu" id="filterSelect" onChange={(e) => {handleChange(e.target.value)}} defaultValue={selectOption}>
-            <option value={"default"}>filter by...</option>
-            <option value={"name"}>filter by name</option>
-            <option value={"species"}>filter by species</option>
-            <option value={"diet"}>filter by diet</option>
+            <option className={styles.filterOption} value={"default"}>Filter by...</option>
+            <option className={styles.filterOption} value={"name"}>Filter by name</option>
+            <option className={styles.filterOption} value={"species"}>Filter by species</option>
+            <option className={styles.filterOption} value={"diet"}>Filter by diet</option>
       </select>
-      <SlidersHorizontal size={24}/>
+      <SlidersHorizontal size={36}/>
     </section>
   )
 }
