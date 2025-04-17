@@ -137,26 +137,20 @@
 /* Media Queries for better responsiveness */
 @media only screen and (max-width: 1180px) {
     .anicardWrapper {
-        width: 55vw;
+        width: 60vw;
+        height: 50vh;
     }
 }
 
 @media only screen and (max-width: 879px) {
     .anicardWrapper {
-        width: 60vw;
-    }
-}
-
-@media only screen and (max-width: 789px){
-    .anicardWrapper {
         width: 70vw;
     }
 }
 
-
 @media only screen and (max-width: 675px){
     .anicardWrapper {
-        width: 80vw;
+        width: 90vw;
         height: 50vh;
 
         .anicardEnvSection {
@@ -170,6 +164,6 @@
 
 @media only screen and (max-width: 375px){
     .anicardWrapper {
-        width: 90vw;
+        height: 60vh;
     }
 }
