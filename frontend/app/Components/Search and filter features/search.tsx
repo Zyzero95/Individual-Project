@@ -24,7 +24,7 @@ export default function Search() {
   return (
     <section className={styles.searchWrapper}>
         <input className={styles.searchInput} aria-label="Search bar" type="text" id="searchbar" placeholder="Search..." defaultValue={searchParams.get('query')?.toString()} onChange={(e) => {handleSearch(e.target.value)}}></input>
-        <LucideSearch size={20}/>
+        <LucideSearch size={36}/>
     </section>
   )
 }

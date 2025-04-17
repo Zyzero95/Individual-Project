@@ -8,9 +8,11 @@
   .mainTopContent {
     display: flex;
     width: 86%;
+    height: 10vh;
     justify-content: space-between;
 
     .mainHeading {
+      font-size: 2rem;
       display: grid;
       align-self: center;
       justify-content: center;
@@ -19,6 +21,9 @@
     .mainForm {
       margin-top: 1rem;
       margin-bottom: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
   }
 
@@ -32,9 +37,11 @@
     .mainTopContent {
       flex-direction: column;
       width: auto;
+      height: auto;
 
       .mainHeading {
         margin-top: 1rem;
+        font-size: 1.5rem;
       }
   
       .mainForm {
