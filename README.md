@@ -25,12 +25,14 @@ The API has hard coded data that is used for the project.
 * Architecture: Clean and minimal, perfect for learning API fundamentals and integration with a modern frontend.
 
 ## 🎨 Frontend (Next.js & React)
+
+![Home](screenshotHomePage.png)
+
 * Framework: Next.js with React for fast rendering and routing.
 
 * Pages:
 
 - Home: Features search, filter, pagination, and a hero image carousel.
-![Home](screenshotHomePage.png)
 
 - About: A simple static page.
 
@@ -40,16 +42,13 @@ The API has hard coded data that is used for the project.
 * Components:
 
 - Header: Navigation to Home, About, and Random ID.
-![Header](screenshotHeader.png)
 
 - Slideshow: An image carousel where you can pause the slideshow by hovering over it.
-![Slideshow](screenshotSlideshow.png)
 
 - Animal Cards: Show images, names, and tags; link to detailed view.
 ![Animal Card](screenshotAnimalCard.png)
 
 - Search & Filter Bars: Reactively filter animal data using URL parameters.
-![Search & Filter Bars](screenshotSearchAndFilter.png)
 
 - Pagination: Displays 6 cards per page with logic adjusting to filtered results.
 ![Pagination](screenshotPagination.png)
