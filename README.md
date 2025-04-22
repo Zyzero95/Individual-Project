@@ -48,7 +48,6 @@ The API has hard coded data that is used for the project.
 - **About:** A simple static page.
 
 - Animal Detail (ID) Page: Displays in-depth info including species, diet, environment, and more.
-![Animal ID Page](screenshotIDPage.png)
 
 * Components:
 
@@ -57,15 +56,12 @@ The API has hard coded data that is used for the project.
 - **Slideshow:** An image carousel where you can pause the slideshow by hovering over it.
 
 - **Animal Cards:** Show images, names, and tags; link to detailed view.
-![Animal Card](screenshotAnimalCard.png)
 
 - **Search & Filter Bars:** Reactively filter animal data using URL parameters.
 
 - **Pagination:** Displays 6 cards per page with logic adjusting to filtered results.
-![Pagination](screenshotPagination.png)
 
 - **Footer:** Contains GitHub/LinkedIn links and scroll-to-top button.
-![Footer](screenshotFooter.png)
 
 ## 💾 Installation
 
