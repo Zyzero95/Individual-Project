@@ -1,5 +1,12 @@
 # Individual-Project: Animal Facts
 
+## Table of Contents
+- [Project Summary](#project-summary)
+- [Features Backend](#-backend-aspnet-core-minimal-api)
+- [Features Frontend](#-frontend-nextjs--react)
+- [Installation](#installation)
+- [Future Plans](#future-plans)
+
 ## Project Summary
 
 I wanted to make this project to use what I have learned during my education period and have design and layout as my focus to work on the areas I'm not as good at.
@@ -14,44 +21,50 @@ The API has hard coded data that is used for the project.
 
 ![API Endpoints and CRUD functionality](screenshotAPI.png)
 
-* Framework: ASP.NET Core with Entity Framework.
+* **Framework:** ASP.NET Core with Entity Framework.
 
-* Data Source: Uses hardcoded data to simulate a database of animal facts.
+* **Data Source:** Uses hardcoded data to simulate a database of animal facts.
 
-* Endpoints:
+* **Endpoints:**
 
-- Retrieve animal data and images.
+- Retrieve all animal data and images.
 
-* Architecture: Clean and minimal, perfect for learning API fundamentals and integration with a modern frontend.
+- Retrieve animal data and images by ID.
+
+* **Architecture:** Clean and minimal, perfect for learning API fundamentals and integration with a modern frontend.
 
 ## 🎨 Frontend (Next.js & React)
 
 ![Home](screenshotHomePage.png)
 
-* Framework: Next.js with React for fast rendering and routing.
+* **Framework:** Next.js with React for fast rendering and routing.
 
 * Pages:
 
-- Home: Features search, filter, pagination, and a hero image carousel.
+- **Home:** Features search, filter, pagination, and a hero image carousel.
 
-- About: A simple static page.
+- **About:** A simple static page.
 
 - Animal Detail (ID) Page: Displays in-depth info including species, diet, environment, and more.
 ![Animal ID Page](screenshotIDPage.png)
 
 * Components:
 
-- Header: Navigation to Home, About, and Random ID.
+- **Header:** Navigation to Home, About, and Random ID.
 
-- Slideshow: An image carousel where you can pause the slideshow by hovering over it.
+- **Slideshow:** An image carousel where you can pause the slideshow by hovering over it.
 
-- Animal Cards: Show images, names, and tags; link to detailed view.
+- **Animal Cards:** Show images, names, and tags; link to detailed view.
 ![Animal Card](screenshotAnimalCard.png)
 
-- Search & Filter Bars: Reactively filter animal data using URL parameters.
+- **Search & Filter Bars:** Reactively filter animal data using URL parameters.
 
-- Pagination: Displays 6 cards per page with logic adjusting to filtered results.
+- **Pagination:** Displays 6 cards per page with logic adjusting to filtered results.
 ![Pagination](screenshotPagination.png)
 
-- Footer: Contains GitHub/LinkedIn links and scroll-to-top button.
+- **Footer:** Contains GitHub/LinkedIn links and scroll-to-top button.
 ![Footer](screenshotFooter.png)
+
+## Installation
+
+## Future Plans
