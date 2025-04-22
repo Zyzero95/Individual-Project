@@ -29,9 +29,9 @@ The API has hard coded data that is used for the project.
 
 * **Endpoints:**
 
-- Retrieve all animal data and images.
+    - Retrieve all animal data and images.
 
-- Retrieve animal data and images by ID.
+    - Retrieve animal data and images by ID.
 
 * **Architecture:** Clean and minimal, perfect for learning API fundamentals and integration with a modern frontend.
 
