@@ -1,6 +1,6 @@
 # Individual-Project: Animal Facts
 
-[![My Skills](https://skillicons.dev/icons?i=dotnet,js,html,css,nextjs,react)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=dotnet,ts,html,css,nextjs,react)](https://skillicons.dev)
 
 ## Table of Contents
 - [Project Summary](#project-summary)
