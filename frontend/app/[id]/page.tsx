@@ -10,7 +10,7 @@ export default async function page({ params }: {params: Promise<{id: number}>}) 
     
   return (
     <main className={styles.idPage}>
-      {data === null ? <p>There was a problem fetching the Animal.</p> : <AnimalIdCard data={data}/>}
+      {data === null ? <p className={styles.idError}>There is no Animal connected to this ID.</p> : <AnimalIdCard data={data}/>}
     </main>
   )
 }

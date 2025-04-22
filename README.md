@@ -1,40 +1,58 @@
 # Individual-Project: Animal Facts
 
 ## Project Summary
+
+I wanted to make this project to use what I have learned during my education period and have design and layout as my focus to work on the areas I'm not as good at.
+
 The project is a website about Animal Facts. Where I use .Net to create a minimal API and use it on the FrontEnd website.
 
-This project will be made with Next.js, React primarly and ASP .Net Core, EntityFramework for the BackEnd API.
+This project is made with Next.js, React primarly and ASP .Net Core, EntityFramework for the BackEnd API.
 
 The API has hard coded data that is used for the project.
 
-## The features of the website:
+## 🧠 Backend (ASP.NET Core Minimal API)
 
-### API
-* Getting images and data from a local API.
+![API Endpoints and CRUD functionality](screenshotAPI.png)
 
-### Header
-* The header is pretty simple. It has a heading and a navigation bar for the Home,About and Random ID pages.
+* Framework: ASP.NET Core with Entity Framework.
 
-### Hero Slideshow
-* An image carousel where you can hover over the slideshow to stop it from transitioning.
+* Data Source: Uses hardcoded data to simulate a database of animal facts.
 
-### Home Page
-The Home Page is where you will find most of the implemented features.
+* Endpoints:
 
-#### Searchbar and Filterbar
-* Using searchParams and array sorting to change the array of data depending on what you are searching for.
+- Retrieve animal data and images.
 
-#### Animal Card
-* Includes an image, name and latin name, tags(environments where they are usually found) and a button navigating you to their respective ID page.
+* Architecture: Clean and minimal, perfect for learning API fundamentals and integration with a modern frontend.
 
-#### Pagination
-* Shows 6 out of 60 total animal cards and creates a wat to navigate between them. There is also implemented logic for when search and filter is changing the array, calculating the correct amount of pages.
+## 🎨 Frontend (Next.js & React)
+* Framework: Next.js with React for fast rendering and routing.
 
-### Footer
-* A simple footer section that includes: link to my github repository, link to my LinkedIn profile and a Scroll to Top button.
+* Pages:
 
-### About Page
-* A simple static page with some sample text.
+- Home: Features search, filter, pagination, and a hero image carousel.
+![Home](screenshotHomepage.png)
 
-### ID Page
-* Gives you more detailed information about a specific animal, it includes: image, name, environment, species, diet and a short description about the animal.
+- About: A simple static page.
+
+- Animal Detail (ID) Page: Displays in-depth info including species, diet, environment, and more.
+![Animal ID Page](screenshotIDPage.png)
+
+* Components:
+
+- Header: Navigation to Home, About, and Random ID.
+![Header](screenshotHeader.png)
+
+- Slideshow: An image carousel where you can pause the slideshow by hovering over it.
+![Slideshow](screenshotSlideshow.png)
+
+- Animal Cards: Show images, names, and tags; link to detailed view.
+![Animal Card](screenshotAnimalCard.png)
+
+- Search & Filter Bars: Reactively filter animal data using URL parameters.
+![Search & Filter Bars](screenshotSearchAndFilter.png)
+
+- Pagination: Displays 6 cards per page with logic adjusting to filtered results.
+![Pagination](screenshotPagination.png)
+
+- Footer: Contains GitHub/LinkedIn links and scroll-to-top button.
+![Footer](screenshotFooter.png)
