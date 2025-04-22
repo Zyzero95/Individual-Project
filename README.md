@@ -67,6 +67,6 @@ The API has hard coded data that is used for the project.
 - **Footer:** Contains GitHub/LinkedIn links and scroll-to-top button.
 ![Footer](screenshotFooter.png)
 
-## 📝 Installation
+## 💾 Installation
 
-## Future Plans
+## 📝 Future Plans
