@@ -30,7 +30,7 @@ The API has hard coded data that is used for the project.
 * Pages:
 
 - Home: Features search, filter, pagination, and a hero image carousel.
-![Home](screenshotHomepage.png)
+![Home](screenshotHomePage.png)
 
 - About: A simple static page.
 
