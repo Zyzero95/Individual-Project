@@ -1,5 +1,7 @@
 # Individual-Project: Animal Facts
 
+[![My Skills](https://skillicons.dev/icons?i=dotnet,js,html,css,nextjs,react)](https://skillicons.dev)
+
 ## Table of Contents
 - [Project Summary](#project-summary)
 - [Features Backend](#-backend-aspnet-core-minimal-api)
@@ -65,6 +67,6 @@ The API has hard coded data that is used for the project.
 - **Footer:** Contains GitHub/LinkedIn links and scroll-to-top button.
 ![Footer](screenshotFooter.png)
 
-## Installation
+## 📝 Installation
 
 ## Future Plans
