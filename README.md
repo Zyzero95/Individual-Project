@@ -72,17 +72,29 @@ The API has hard coded data that is used for the project.
 
 * **Installation**
     - Create a new project in Visual Studio Code
-    - Open terminal and use command:
-        ```git clone https://github.com/Zyzero95/Individual-Project.git```
-    - Change directory to the frontend folder:
-        ```cd frontend```
+
+    - Open terminal and use command: ```git clone https://github.com/Zyzero95/Individual-Project.git```
+
+    - Change directory to the frontend folder: ```cd frontend```
+    ![terminal change directory](image.png)
+
     - Go to the backend folder and open Program.cs
+    ![Program.cs](image-1.png)
+
     - Run and Debug ```(Ctrl+Shift+D)``` and choose C# as the debug option
+    ![Run And Debug](image-2.png)
+
     - Choose C#: Launch Startup Project (Individual Project)
-    - Start the Run and Debug, this will run the API so you can access its data
+    ![Launch Startup Project](image-3.png)
+
+    - Start the Run and Debug, ```F5``` this will run the API so you can access its data
+
     - Open a new terminal window
+
     - Make sure you are still in the frontend directory
+
     - Use the command: ```npm install``` to install all dependencies for the frontend folder
+
     - Use the command: ```npm run dev``` or if you want to build and start the project use: ```next build , next start```
 
 ## 📝 Future Plans
