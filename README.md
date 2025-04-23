@@ -76,6 +76,7 @@ The API has hard coded data that is used for the project.
 * Open terminal and use command: ```git clone https://github.com/Zyzero95/Individual-Project.git```
 
 * Change directory to the frontend folder: ```cd frontend```
+
 ![terminal change directory](image.png)
 
 * Go to the backend folder and open Program.cs
