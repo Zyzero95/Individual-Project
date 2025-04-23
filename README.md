@@ -74,5 +74,24 @@ The API has hard coded data that is used for the project.
     - Create a new project in Visual Studio Code
     - Open terminal and use command:
         ```git clone https://github.com/Zyzero95/Individual-Project.git```
+    - Change directory to the frontend folder:
+        ```cd frontend```
+    - Go to the backend folder and open Program.cs
+    - Run and Debug ```(Ctrl+Shift+D)``` and choose C# as the debug option
+    - Choose C#: Launch Startup Project (Individual Project)
+    - Start the Run and Debug, this will run the API so you can access its data
+    - Open a new terminal window
+    - Make sure you are still in the frontend directory
+    - Use the command: ```npm install``` to install all dependencies for the frontend folder
+    - Use the command: ```npm run dev``` or if you want to build and start the project use: ```next build , next start```
 
 ## 📝 Future Plans
+
+* **Features**
+    - I want to make my search and filter section more advanced, using more features and smarter queries.
+    - I want to keep developing my design to make it look better and have better responsiveness.
+    - I want to make my About Page more proper for the project.
+
+* **Bug Fixes**
+    - The pagination does not work as intended if you search for an animal which generates less pages than the page you are currently on.
+    - I still sometimes get Response 400: Bad Request from my API fetch function which I need to look deeper into.

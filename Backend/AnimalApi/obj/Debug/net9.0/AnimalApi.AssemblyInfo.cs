@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AnimalApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4ea97e4b045159603afcffe6a8cfb0851126f34")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad4ddde331a6b4fd1214d27a77f66a494580aab1")]
 [assembly: System.Reflection.AssemblyProductAttribute("AnimalApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AnimalApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
