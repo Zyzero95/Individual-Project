@@ -41,7 +41,7 @@ The API has hard coded data that is used for the project.
 
 * **Framework:** Next.js with React for fast rendering and routing.
 
-* Pages:
+* **Pages:**
 
 - **Home:** Features search, filter, pagination, and a hero image carousel.
 
@@ -49,7 +49,7 @@ The API has hard coded data that is used for the project.
 
 - Animal Detail (ID) Page: Displays in-depth info including species, diet, environment, and more.
 
-* Components:
+* **Components:**
 
 - **Header:** Navigation to Home, About, and Random ID.
 
@@ -64,5 +64,15 @@ The API has hard coded data that is used for the project.
 - **Footer:** Contains GitHub/LinkedIn links and scroll-to-top button.
 
 ## 💾 Installation
+
+* **Prerequisites**
+    - Visual Studio Code
+    * Extensions
+        - C#
+
+* **Installation**
+    - Create a new project in Visual Studio Code
+    - Open terminal and use command:
+        ```git clone https://github.com/Zyzero95/Individual-Project.git```
 
 ## 📝 Future Plans
