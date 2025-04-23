@@ -79,6 +79,7 @@ The API has hard coded data that is used for the project.
     ![terminal change directory](image.png)
 
     - Go to the backend folder and open Program.cs
+    
     ![Program.cs](image-1.png)
 
     - Run and Debug ```(Ctrl+Shift+D)``` and choose C# as the debug option
